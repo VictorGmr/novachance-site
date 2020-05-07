@@ -64,25 +64,21 @@ Nova Chance - Login
                                     </span>
                                 @enderror
                                
-                                <input class="form-check-input" type="checkbox" name="remember" id="remember" {{ old('remember') ? 'checked' : '' }}>
+                                <!--<input class="form-check-input" type="checkbox" name="remember" id="remember" {{ old('remember') ? 'checked' : '' }}>
                                 <label class="form-check-label" for="remember">
                                     {{ __('Remember Me') }}
-                                </label>
+                                </label>-->
                                 
                             </div>
 							
                             <div style="text-align:center;">
                                 <button style="display:inline-block;" type="submit"class="contact_button">Entrar</button>
                                 
-                                @if (Route::has('password.request'))
-                                    <a style="display:inline-block;" class="btn btn-link" href="#">
-                                        Esqueceu sua senha?
-                                    </a>
-
-                                    <!--<a style="display:inline-block;" class="btn btn-link" href="{{ route('password.request') }}">
+                                <!--@if (Route::has('password.request'))
+                                    <a style="display:inline-block;" class="btn btn-link" href="{{ route('password.request') }}">
                                         {{ __('Forgot Your Password?') }}
-                                    </a>-->
-                                @endif
+                                    </a>
+                                @endif-->
                             </div>
 						</form>
 					</div>
