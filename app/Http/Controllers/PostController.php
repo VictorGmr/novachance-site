@@ -1,12 +1,14 @@
 <?php
 
 namespace App\Http\Controllers;
-
 use App\Post;
+use App\User;
 use Illuminate\Http\Request;
+use Auth;
 
 class PostController extends Controller
 {
+
     /**
      * Display a listing of the resource.
      *
@@ -15,7 +17,8 @@ class PostController extends Controller
     public function index()
     {
         $allPosts = Post::orderBy('created_at', 'desc')->get();
-        return view('post.index', array('posts' => $allPosts));
+        
+        return view('post.index', array('posts' => $allPosts, 'users' => User::all()));
     }
 
     /**
@@ -39,9 +42,14 @@ class PostController extends Controller
         $post = new Post();
         $post->titulo = $request->titulo;
         $post->conteudo = $request->conteudo;
-        $post->users_id = 9;
-        
+        $post->users_id = Auth::id();
+
         if($post->save()){
+            if($request->hasFile('foto')){
+                $foto = $request->file('foto');
+                $nomearquivo = md5($post->id);
+                $request->file('foto')->move(public_path('images/fotos_posts/'), $nomearquivo);
+            }
             return redirect('ncon');
         }
 

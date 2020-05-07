@@ -47,10 +47,15 @@ Nova Chance - Novo Post
 				<div class="col-lg-6">
 					<div class="contact_form_container">
 						<div class="contact_title">Crie sua postagem:</div>
-						<form action="/ncon/store" method="POST" class="contact_form" id="contact_form">
+						<form action="/ncon/store" method="POST" enctype="multipart/form-data" class="contact_form" id="contact_form">
 							@csrf
 							<input type="name" class="contact_input" placeholder="Título" name="titulo" required="required" autocomplete="off">
-							<textarea style="height:348px;"class="contact_input contact_textarea" placeholder="Postagem" name="conteudo" autocomplete="off required="required"></textarea>
+							<textarea style="height:348px;"class="contact_input contact_textarea" placeholder="Postagem" name="conteudo" autocomplete="off" required="required"></textarea>
+							<ul>
+							<li><label for="foto">Selecione uma imagem para seu post</label></li>
+							<li><input type="file" name="foto" id="foto"></li>
+							</ul>
+							
 							<button class="contact_button">Postar</button>
 						</form>
 					</div>

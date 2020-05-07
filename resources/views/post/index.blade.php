@@ -48,11 +48,11 @@ Nova Chance - Posts
 				<!-- Blog Posts -->
 				<div class="col-lg-9" style="background-color:rgb(10,10,10);">
 					<div class="blog_posts">
+						@auth
 						<div style="margin-top: 15px;" class="button button_3 trans_200"><a href="ncon/create">Criar nova postagem</a></div>
-						
-						@foreach($posts as $post)
+						@endauth
 
-							
+						@foreach($posts as $post)
 
 							<div class="blog_post">
 								<div class="blog_post_date d-flex flex-column align-items-center justify-content-center">
@@ -60,11 +60,15 @@ Nova Chance - Posts
 									<div>{{$post->created_at->format('m')}}</div>
 									<div>{{$post->created_at->format('Y')}}</div>
 								</div>
-								<!--<div class="blog_post_image"><img src="images/blog_1.jpg" alt="https://unsplash.com/@stevenerixon"></div>-->
+								
+								@if(file_exists(public_path('images/fotos_posts/'.md5($post->id))))
+									<div class="blog_post_image"><img src="{{asset('images/fotos_posts/'.md5($post->id))}}"></div>
+								@endif
+								<!---->
 								<div class="blog_post_title"><h2>{{$post->titulo}}</h2></div>
 								<div class="blog_post_info">
 									<ul class="d-flex flex-row align-items-start justify-content-start">
-										<li>by Admin</li>
+										<li>Por: {{$users->find($post->users_id)->name}}</li>
 										<!--<li><a href="#">2 Comments</a></li>-->
 									</ul>
 								</div>

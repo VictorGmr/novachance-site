@@ -24,6 +24,6 @@ Route::get('/contato', 'HomeController@contato')->name('contato');
 
 
 Route::get('/ncon', 'PostController@index')->name('ncon');
-Route::get('/ncon/create', 'PostController@create')->name('ncon/create');
-Route::post('/ncon/store', 'PostController@store')->name('ncon/store');
+Route::get('/ncon/create', 'PostController@create')->name('ncon/create')->middleware('auth');
+Route::post('/ncon/store', 'PostController@store')->name('ncon/store')->middleware('auth');
 
