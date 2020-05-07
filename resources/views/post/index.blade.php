@@ -1,8 +1,8 @@
 @extends('layouts.app')
 
 @section('title')
-Nova Chance - Blog
-@endsection
+Nova Chance - Posts
+@endsection()
 
 @section('defineActive')
 	<li><a href="/home">INÍCIO</a></li>
@@ -14,7 +14,9 @@ Nova Chance - Blog
 
 @section('css')
 	<link rel="stylesheet" type="text/css" href="styles/blog.css">
-    <link rel="stylesheet" type="text/css" href="styles/blog_responsive.css">
+	<link rel="stylesheet" type="text/css" href="styles/blog_responsive.css">
+	<link rel="stylesheet" type="text/css" href="styles/elements.css">
+    <link rel="stylesheet" type="text/css" href="styles/elements_responsive.css">
 @endsection()
 
 @section('content')
@@ -30,8 +32,8 @@ Nova Chance - Blog
 			<div class="parallax_background parallax-window" data-parallax="scroll" data-image-src="images/blog.jpg" data-speed="0.8"></div>
 			<div class="home_container">
 				<div class="home_content text-center">
-					<div class="home_subtitle">Just us</div>
-					<div class="home_title">The Blog</div>
+					<div class="home_subtitle">Nova Chance</div>
+					<div class="home_title">NC ON</div>
 				</div>
 			</div>
 		</div>
@@ -44,10 +46,37 @@ Nova Chance - Blog
 			<div class="row">
 				
 				<!-- Blog Posts -->
-				<div class="col-lg-9">
+				<div class="col-lg-9" style="background-color:rgb(10,10,10);">
 					<div class="blog_posts">
+						<div style="margin-top: 15px;" class="button button_3 trans_200"><a href="ncon/create">Criar nova postagem</a></div>
 						
-						<!-- Blog Post -->
+						@foreach($posts as $post)
+
+							
+
+							<div class="blog_post">
+								<div class="blog_post_date d-flex flex-column align-items-center justify-content-center">
+									<div>{{$post->created_at->format('d')}}</div>
+									<div>{{$post->created_at->format('m')}}</div>
+									<div>{{$post->created_at->format('Y')}}</div>
+								</div>
+								<!--<div class="blog_post_image"><img src="images/blog_1.jpg" alt="https://unsplash.com/@stevenerixon"></div>-->
+								<div class="blog_post_title"><h2>{{$post->titulo}}</h2></div>
+								<div class="blog_post_info">
+									<ul class="d-flex flex-row align-items-start justify-content-start">
+										<li>by Admin</li>
+										<!--<li><a href="#">2 Comments</a></li>-->
+									</ul>
+								</div>
+								<div class="blog_post_text">
+									<p>{{$post->conteudo}}</p>
+								</div>
+							</div>
+						@endforeach
+						
+
+
+						<!-- Blog Post 
 						<div class="blog_post">
 							<div class="blog_post_date d-flex flex-column align-items-center justify-content-center">
 								<div>July</div>
@@ -67,7 +96,7 @@ Nova Chance - Blog
 							</div>
 						</div>
 
-						<!-- Blog Post -->
+						 Blog Post 
 						<div class="blog_post blog_post_audio">
 							<div class="blog_post_date d-flex flex-column align-items-center justify-content-center">
 								<div>July</div>
@@ -75,7 +104,7 @@ Nova Chance - Blog
 								<div>2018</div>
 							</div>
 
-							<!-- Single Player -->
+							 Single Player
 							<div class="single_player_container d-flex flex-column align-items-start justify-content-center">
 								<div class="single_player">
 									<div id="jplayer_1" class="jp-jplayer"></div>
@@ -131,7 +160,7 @@ Nova Chance - Blog
 
 						</div>
 
-						<!-- Blog Post -->
+						 Blog Post 
 						<div class="blog_post">
 							<div class="blog_post_date d-flex flex-column align-items-center justify-content-center">
 								<div>July</div>
@@ -149,12 +178,12 @@ Nova Chance - Blog
 							<div class="blog_post_text">
 								<p>In vitae nisi aliquam, scelerisque leo a, volutpat sem. Vivamus rutrum dui fermentum eros hendrerit, id lobortis leo volutpat. Maecenas sollicitudin est in libero pretium interdum. Nullam volutpat dui sem, ac congue purus luctus nec. Curabitur luctus luctus erat, sit amet facilisis quam congue quis. Quisque ornare luctus erat id dignissim. Nullam ac nunc quis ex porttitor luctus.</p>
 							</div>
-						</div>
+						</div> -->
 
 					</div>
-					<div class="load_more">
+					<!--<div class="load_more">
 						<div class="button"><a href="#">Load More</a></div>
-					</div>
+					</div>-->
 				</div>
 				
 				<!-- Sidebar -->

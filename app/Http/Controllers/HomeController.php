@@ -28,11 +28,6 @@ class HomeController extends Controller
         return view('home.about');
     }
 
-    public function ncon()
-    {
-        return view('home.blog');
-    }
-
     public function discipulado()
     {
         return view('home.elements');
