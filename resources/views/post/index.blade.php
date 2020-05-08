@@ -29,10 +29,10 @@ Nova Chance - Posts
 	<div class="home">
 		<div class="home_inner">
 			<!-- Image artist: https://unsplash.com/@yoannboyer -->
-			<div class="parallax_background parallax-window" data-parallax="scroll" data-image-src="images/blog.jpg" data-speed="0.8"></div>
+			<div class="parallax_background parallax-window" data-parallax="scroll" data-image-src="images/newspaper.jpg" data-speed="0.8"></div>
 			<div class="home_container">
 				<div class="home_content text-center">
-					<div class="home_subtitle">Nova Chance</div>
+					<div class="home_subtitle">NOVA CHANCE</div>
 					<div class="home_title">NC NEWS</div>
 				</div>
 			</div>
@@ -72,7 +72,7 @@ Nova Chance - Posts
 										<!--<li><a href="#">2 Comments</a></li>-->
 									</ul>
 								</div>
-								<div class="blog_post_text">
+								<div class="blog_post_text" style="word-wrap: break-word">
 									<p>{{$post->conteudo}}</p>
 								</div>
 							</div>

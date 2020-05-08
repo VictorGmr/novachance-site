@@ -47,10 +47,10 @@ Nova Chance - Contato
 					<div class="contact_form_container">
 						<div class="contact_title">Fale conosco</div>
 						<form action="#" class="contact_form" id="contact_form">
-							<input type="text" class="contact_input" placeholder="Name" required="required">
+							<input type="text" class="contact_input" placeholder="Nome" required="required">
 							<input type="email" class="contact_input" placeholder="E-mail" required="required">
-							<input type="text" class="contact_input" placeholder="Subject">
-							<textarea class="contact_input contact_textarea" placeholder="Message" required="required"></textarea>
+							<input type="text" class="contact_input" placeholder="Assunto">
+							<textarea class="contact_input contact_textarea" placeholder="Mensagem" required="required"></textarea>
 							<button class="contact_button">Enviar mensagem</button>
 						</form>
 					</div>

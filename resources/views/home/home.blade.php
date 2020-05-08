@@ -231,7 +231,7 @@ Nova Chance
 				<div class="col-lg-4 order-lg-2 order-1">
 					<div class="shows_image">
 						<div class="image_overlay"></div>
-						<img src="images/shows.jpg" alt="https://unsplash.com/@anthonydelanoix">
+						<img src="images/nc3.png" alt="https://unsplash.com/@anthonydelanoix">
 					</div>
 				</div>
 
@@ -243,7 +243,7 @@ Nova Chance
 
 	<div class="extra" style="margin-top:100px;">
 		<div class="extra_container">
-			<div class="background_image" style="background-image:url(images/extra.jpg)"></div>
+			<div class="background_image" style="background-image:url(images/vol.jpg)"></div>
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-9">
@@ -252,7 +252,7 @@ Nova Chance
 							<div class="extra_text">
 								<p>In vitae nisi aliquam, scelerisque leo a, volutpat sem. Vivamus rutrum dui fermentum eros hendrerit, id lobortis leo volutpat. Maecenas sollicitudin est in libero pretium interdum</p>
 							</div>
-							<div class="extra_button"><a href="#">Buy Now</a></div>
+							<!--<div class="extra_button"><a href="#">Buy Now</a></div>-->
 						</div>
 					</div>
 				</div>

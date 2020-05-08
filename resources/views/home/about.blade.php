@@ -103,13 +103,13 @@ Nova Chance - Sobre
 		</div>
 	</div>
 
-	<!-- Discs -->
+	<!-- Discs 
 
 	<div class="discs">
 		<div class="container">
 			<div class="row discs_row">
 				
-				<!-- Disc -->
+				 Disc 
 				<div class="col-xl-4 col-md-6">
 					<div class="disc">
 						<a href="single.html">
@@ -126,7 +126,7 @@ Nova Chance - Sobre
 					</div>
 				</div>
 
-				<!-- Disc -->
+				 Disc 
 				<div class="col-xl-4 col-md-6">
 					<div class="disc">
 						<a href="single.html">
@@ -145,7 +145,7 @@ Nova Chance - Sobre
 					</div>
 				</div>
 
-				<!-- Disc -->
+				 Disc 
 				<div class="col-xl-4 col-md-6">
 					<div class="disc">
 						<a href="single.html">
@@ -164,7 +164,7 @@ Nova Chance - Sobre
 					</div>
 				</div>
 
-				<!-- Disc -->
+				 Disc 
 				<div class="col-xl-4 col-md-6">
 					<div class="disc">
 						<a href="single.html">
@@ -183,7 +183,7 @@ Nova Chance - Sobre
 					</div>
 				</div>
 
-				<!-- Disc -->
+				 Disc 
 				<div class="col-xl-4 col-md-6">
 					<div class="disc">
 						<a href="single.html">
@@ -199,7 +199,7 @@ Nova Chance - Sobre
 					</div>
 				</div>
 
-				<!-- Disc -->
+				 Disc 
 				<div class="col-xl-4 col-md-6">
 					<div class="disc">
 						<a href="single.html">
@@ -220,7 +220,7 @@ Nova Chance - Sobre
 		</div>
 	</div>
 
-	<!-- Milestones -->
+	 Milestones 
 
 	<div class="milestones">
 		<div class="milestones_container">
@@ -228,7 +228,7 @@ Nova Chance - Sobre
 			<div class="container">
 				<div class="row milestones_row">
 					
-					<!-- Milestone -->
+					 Milestone 
 					<div class="col-xl-3 col-md-6 milestone_col">
 						<div class="milestone d-flex flex-row align-items-center justify-content-start">
 							<div class="milestone_icon"><img src="images/icon_1.svg" alt="https://www.flaticon.com/authors/smashicons"></div>
@@ -239,7 +239,7 @@ Nova Chance - Sobre
 						</div>
 					</div>
 
-					<!-- Milestone -->
+					 Milestone 
 					<div class="col-xl-3 col-md-6 milestone_col">
 						<div class="milestone d-flex flex-row align-items-center justify-content-start">
 							<div class="milestone_icon"><img src="images/icon_2.svg" alt="https://www.flaticon.com/authors/smashicons"></div>
@@ -250,7 +250,7 @@ Nova Chance - Sobre
 						</div>
 					</div>
 
-					<!-- Milestone -->
+					 Milestone 
 					<div class="col-xl-3 col-md-6 milestone_col">
 						<div class="milestone d-flex flex-row align-items-center justify-content-start">
 							<div class="milestone_icon"><img src="images/icon_3.svg" alt="https://www.flaticon.com/authors/smashicons"></div>
@@ -261,7 +261,7 @@ Nova Chance - Sobre
 						</div>
 					</div>
 
-					<!-- Milestone -->
+					 Milestone 
 					<div class="col-xl-3 col-md-6 milestone_col">
 						<div class="milestone d-flex flex-row align-items-center justify-content-start">
 							<div class="milestone_icon"><img src="images/icon_4.svg" alt="https://www.flaticon.com/authors/smashicons"></div>
@@ -275,7 +275,7 @@ Nova Chance - Sobre
 				</div>
 			</div>
 		</div>
-	</div>
+	</div>-->
 
 
 @endsection
