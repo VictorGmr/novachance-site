@@ -18,12 +18,13 @@ Auth::routes();
 
 Route::get('/', 'HomeController@home')->name('home');
 Route::get('/home', 'HomeController@home')->name('home');
+Route::post('/home/inscrever-se', 'HomeController@storeNewsletter')->name('inscrever-se');
 Route::get('/sobre', 'HomeController@sobre')->name('sobre');
-Route::get('/discipulado', 'HomeController@discipulado')->name('discipulado');
+Route::get('/aovivo', 'HomeController@aovivo')->name('aovivo');
 Route::get('/contato', 'HomeController@contato')->name('contato');
 
 
-Route::get('/ncon', 'PostController@index')->name('ncon');
-Route::get('/ncon/create', 'PostController@create')->name('ncon/create')->middleware('auth');
-Route::post('/ncon/store', 'PostController@store')->name('ncon/store')->middleware('auth');
+Route::get('/ncnews', 'PostController@index')->name('ncnews');
+Route::get('/ncnews/create', 'PostController@create')->name('ncnews/create')->middleware('auth');
+Route::post('/ncnews/store', 'PostController@store')->name('ncnews/store')->middleware('auth');
 

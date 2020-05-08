@@ -50,10 +50,8 @@ class PostController extends Controller
                 $nomearquivo = md5($post->id);
                 $request->file('foto')->move(public_path('images/fotos_posts/'), $nomearquivo);
             }
-            return redirect('ncon');
+            return redirect('ncnews');
         }
-
-        
     }
 
     /**

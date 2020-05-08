@@ -7,8 +7,8 @@ Nova Chance - Novo Post
 @section('defineActive')
 	<li><a href="/home">INÍCIO</a></li>
 	<li><a href="/sobre">QUEM SOMOS</a></li>
-	<li><a href="/ncon">NC ON</a></li>
-	<li><a href="/discipulado">DISCIPULADO</a></li>
+	<li><a href="/ncnews">NC NEWS</a></li>
+	<li><a href="/aovivo">CULTO AO VIVO</a></li>
 	<li><a href="/contato">CONTATO</a></li>
 @endsection()
 	
@@ -47,7 +47,7 @@ Nova Chance - Novo Post
 				<div class="col-lg-6">
 					<div class="contact_form_container">
 						<div class="contact_title">Crie sua postagem:</div>
-						<form action="/ncon/store" method="POST" enctype="multipart/form-data" class="contact_form" id="contact_form">
+						<form action="/ncnews/store" method="POST" enctype="multipart/form-data" class="contact_form" id="contact_form">
 							@csrf
 							<input type="name" class="contact_input" placeholder="Título" name="titulo" required="required" autocomplete="off">
 							<textarea style="height:348px;"class="contact_input contact_textarea" placeholder="Postagem" name="conteudo" autocomplete="off" required="required"></textarea>

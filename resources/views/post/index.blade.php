@@ -7,8 +7,8 @@ Nova Chance - Posts
 @section('defineActive')
 	<li><a href="/home">INÍCIO</a></li>
 	<li><a href="/sobre">QUEM SOMOS</a></li>
-	<li class="active"><a href="/ncon">NC ON</a></li>
-	<li><a href="/discipulado">DISCIPULADO</a></li>
+	<li class="active"><a href="/ncnews">NC NEWS</a></li>
+	<li><a href="/aovivo">CULTO AO VIVO</a></li>
 	<li><a href="/contato">CONTATO</a></li>
 @endsection()
 
@@ -33,7 +33,7 @@ Nova Chance - Posts
 			<div class="home_container">
 				<div class="home_content text-center">
 					<div class="home_subtitle">Nova Chance</div>
-					<div class="home_title">NC ON</div>
+					<div class="home_title">NC NEWS</div>
 				</div>
 			</div>
 		</div>
@@ -49,7 +49,7 @@ Nova Chance - Posts
 				<div class="col-lg-9" style="background-color:rgb(10,10,10);">
 					<div class="blog_posts">
 						@auth
-						<div style="margin-top: 15px;" class="button button_3 trans_200"><a href="ncon/create">Criar nova postagem</a></div>
+						<div style="margin-top: 15px;" class="button button_3 trans_200"><a href="ncnews/create">Criar nova postagem</a></div>
 						@endauth
 
 						@foreach($posts as $post)

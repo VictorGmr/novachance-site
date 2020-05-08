@@ -117,8 +117,8 @@
 					<ul class="d-flex flex-column align-items-start justify-content-start">
 						<li><a href="/home">INÍCIO</a></li>
 						<li><a href="/sobre">QUEM SOMOS</a></li>
-						<li><a href="/ncon">NC ON</a></li>
-						<li><a href="/discipulado">DISCIPULADO</a></li>
+						<li><a href="/ncnews">NC NEWS</a></li>
+						<li><a href="/aovivo">CULTO AO VIVO</a></li>
 						<li><a href="/contato">CONTATO</a></li>
 					</ul>
 				</nav>
@@ -137,9 +137,10 @@
 		<div class="footer_container d-flex flex-xl-row flex-column align-items-start justify-content-start">
 			<div class="newsletter_container">
 				<div class="newsletter_title"><h2>Receba nossas notícias em seu e-mail</h2></div>
-				<form action="#" id="newsletter_form" class="newsletter_form">
-					<input type="email" class="newsletter_input" placeholder="Seu E-mail" required="required">
-					<button class="newsletter_button">Inscreva-se</button>
+				<form method="POST" action="/home/inscrever-se" id="newsletter_form" class="newsletter_form">
+					@csrf
+					<input type="email" name="email" class="newsletter_input" placeholder="Seu E-mail" required="required">
+					<button type="submit" class="newsletter_button">Inscreva-se</button>
 				</form>
 			</div>
 			<div class="footer_lists d-flex flex-sm-row  flex-column align-items-start justify-content-end ml-xl-auto">
@@ -150,8 +151,8 @@
 					<ul>
 						<li><a href="/home">Home</a></li>
 						<li><a href="/sobre">Quem somos</a></li>
-						<li><a href="/ncon">NC ON</a></li>
-						<li><a href="/discipulado">Discipulado</a></li>
+						<li><a href="/ncnews">NC NEWS</a></li>
+						<li><a href="/aovivo">Culto ao vivo</a></li>
 						<li><a href="/contato">Contato</a></li>
 					</ul>
 				</div>

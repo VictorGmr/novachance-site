@@ -7,8 +7,8 @@ Nova Chance
 @section('defineActive')
 	<li class="active"><a href="/home">INÍCIO</a></li>
 	<li><a href="/sobre">QUEM SOMOS</a></li>
-	<li><a href="/ncon">NC ON</a></li>
-	<li><a href="/discipulado">DISCIPULADO</a></li>
+	<li><a href="/ncnews">NC NEWS</a></li>
+	<li><a href="/aovivo">CULTO AO VIVO</a></li>
 	<li><a href="/contato">CONTATO</a></li>
 @endsection()
 
@@ -29,19 +29,19 @@ Nova Chance
 				
 				<!-- Slide -->
 				<div class="owl-item">
-					<div class="background_image" style="background-image:url(images/index.jpg)"></div>
+					<div class="background_image" style="background-image:url(images/nc_capa.png)"></div>
 					<div class="home_container">
 						<div class="home_container_inner d-flex flex-column align-items-center justify-content-center">
 							<div class="home_content text-center">
-								<div class="home_subtitle">Reinamos em vida</div>
+								<!--<div class="home_subtitle">Reinamos em vida</div>
 								<div class="home_title"><h1>Nova Chance</h1></div>
-								<div class="home_link"><a href="#">LNC ON TV</a></div>
+								<div class="home_link"><a href="#">LNC ON TV</a></div>-->
 							</div>
 						</div>
 					</div>
 				</div>
 
-				<!-- Slide -->
+				<!-- Slide
 				<div class="owl-item">
 					<div class="background_image" style="background-image:url(images/index.jpg)"></div>
 					<div class="home_container">
@@ -55,7 +55,7 @@ Nova Chance
 					</div>
 				</div>
 
-				<!-- Slide -->
+				Slide
 				<div class="owl-item">
 					<div class="background_image" style="background-image:url(images/index.jpg)"></div>
 					<div class="home_container">
@@ -67,7 +67,7 @@ Nova Chance
 							</div>
 						</div>
 					</div>
-				</div>
+				</div> -->
 
 			</div>
 		</div>
@@ -99,7 +99,7 @@ Nova Chance
 							<p>Integer sed facilisis eros. In iaculis rhoncus velit in malesuada. In hac habitasse platea dictumst. Fusce erat ex, consectetur sit amet ornare suscipit, porta et erat. Donec nec nisi in nibh commodo laoreet. Mauris dapibus justo ut feugiat malesuada. Fusce ultricies ante tortor, non vestibulum est feugiat ut.</p>
 						</div>
 						<div class="artist_sig"><img src="images/sig.png" alt=""></div>
-						<div class="single_player_container d-flex flex-column align-items-start justify-content-center">
+						<!-- PLAYER AUDIO <div class="single_player_container d-flex flex-column align-items-start justify-content-center">
 							<div class="single_player">
 								<div id="jplayer_2" class="jp-jplayer"></div>
 								<div id="jp_container_2" class="jp-audio" role="application" aria-label="media player">
@@ -140,14 +140,14 @@ Nova Chance
 								</div>
 
 							</div>
-						</div>
+						</div> -->
 					</div>
 				</div>
 
 			</div>
 		</div>
 	</div>
-
+	
 
 	<!-- Shows -->
 
@@ -172,7 +172,7 @@ Nova Chance
 							<li class="d-flex flex-row align-items-center justify-content-start">
 								<div><div class="show_date">DOM</div></div>
 								<div class="show_info d-flex flex-md-row flex-column align-items-md-center align-items-start justify-content-md-start justify-content-center">
-									<div class="show_name"><a href="#">Culto de Celegração</a></div>
+									<div class="show_name"><a href="#">Culto de Celebração</a></div>
 									<div class="show_location">10:00 e 18:30</div>
 								</div>
 								<!--<div class="ml-auto"><div class="show_shop trans_200"><a href="#">Buy Tickets</a></div></div>-->

@@ -7,9 +7,9 @@ Nova Chance - Contato
 @section('defineActive')
 	<li><a href="/home">INÍCIO</a></li>
 	<li><a href="/sobre">QUEM SOMOS</a></li>
-	<li><a href="/ncon">NC ON</a></li>
-	<li><a href="/discipulado">DISCIPULADO</a></li>
-	<li class="active"><a href="/contato">CONTATO</a></li>
+	<li><a href="/ncnews">NC NEWS</a></li>
+	<li><a href="/aovivo">CULTO AO VIVO</a></li>
+	<li><a href="/contato">CONTATO</a></li>
 @endsection()
 	
 @section('css')
