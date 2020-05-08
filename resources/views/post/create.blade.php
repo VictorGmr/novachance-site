@@ -18,7 +18,7 @@ Nova Chance - Novo Post
 @endsection()
 
 @section('content')
-	
+
 
 	<!-- Home -->
 
@@ -55,7 +55,6 @@ Nova Chance - Novo Post
 							<li><label for="foto">Selecione uma imagem para seu post</label></li>
 							<li><input type="file" name="foto" id="foto"></li>
 							</ul>
-							
 							<button class="contact_button">Postar</button>
 						</form>
 					</div>

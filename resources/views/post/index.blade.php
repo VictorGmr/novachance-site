@@ -61,6 +61,23 @@ Nova Chance - Posts
 									<div>{{$post->created_at->format('Y')}}</div>
 								</div>
 								
+								@auth
+									<div style="display:flex; margin-bottom:10px;">
+										<div class="button button_3 trans_200">
+											<a href="ncnews/edit/{{$post->id}}">Editar esta postagem</a>
+										</div>
+
+										<form id="delete_form" action="ncnews/{{$post->id}}" method="POST">
+											@csrf
+											@method('DELETE')
+											<div class="button button_3 trans_200">
+												<a href="javascript:{}" onclick="document.getElementById('delete_form').submit();">Excluir esta postagem</a>
+											</div>
+										</form>
+										
+									</div>
+								@endauth
+
 								@if(file_exists(public_path('images/fotos_posts/'.md5($post->id))))
 									<div class="blog_post_image"><img src="{{asset('images/fotos_posts/'.md5($post->id))}}"></div>
 									<div style="margin-top: 40px;" class="blog_post_title"><h2>{{$post->titulo}}</h2></div>
