@@ -7,14 +7,14 @@ Nova Chance - Login
 @section('defineActive')
 	<li><a href="/home">INÍCIO</a></li>
 	<li><a href="/sobre">QUEM SOMOS</a></li>
-	<li><a href="/ncon">NC ON</a></li>
-	<li><a href="/discipulado">DISCIPULADO</a></li>
+	<li><a href="/ncnews">NC NEWS</a></li>
+	<li><a href="/aovivo">CULTO AO VIVO</a></li>
 	<li><a href="/contato">CONTATO</a></li>
 @endsection()
 
 @section('css')
-	<link rel="stylesheet" type="text/css" href="styles/contact.css">
-    <link rel="stylesheet" type="text/css" href="styles/contact_responsive.css">
+	<link rel="stylesheet" type="text/css" href="/styles/contact.css">
+    <link rel="stylesheet" type="text/css" href="/styles/contact_responsive.css">
 @endsection()
 
 @section('content')
@@ -24,7 +24,7 @@ Nova Chance - Login
     <div class="home">
 		<div class="home_inner">
 			<!-- Image artist: https://unsplash.com/@yoannboyer -->
-			<div class="parallax_background parallax-window" data-parallax="scroll" data-image-src="images/contact.jpg" data-speed="0.8"></div>
+			<div class="parallax_background parallax-window" data-parallax="scroll" data-image-src="/images/contact.jpg" data-speed="0.8"></div>
 			<div class="home_container">
 				<div class="home_content text-center">
 					<div class="home_subtitle">Nova Chance</div>
@@ -91,5 +91,5 @@ Nova Chance - Login
 @endsection
 
 @section('js')
-<script src="js/contact.js"></script>
+<script src="/js/contact.js"></script>
 @endsection()

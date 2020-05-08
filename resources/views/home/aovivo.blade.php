@@ -13,8 +13,8 @@ Nova Chance - Elementos
 @endsection()
 
 @section('css')
-	<link rel="stylesheet" type="text/css" href="styles/elements.css">
-    <link rel="stylesheet" type="text/css" href="styles/elements_responsive.css">
+	<link rel="stylesheet" type="text/css" href="/styles/elements.css">
+    <link rel="stylesheet" type="text/css" href="/styles/elements_responsive.css">
 @endsection()
 	
 @section('content')
@@ -26,7 +26,7 @@ Nova Chance - Elementos
 	<div class="home">
 		<div class="home_inner">
 			<!-- Image artist: https://unsplash.com/@tanelah -->
-			<div class="parallax_background parallax-window" data-parallax="scroll" data-image-src="images/mic.jpg" data-speed="0.8"></div>
+			<div class="parallax_background parallax-window" data-parallax="scroll" data-image-src="/images/mic.jpg" data-speed="0.8"></div>
 			<div class="home_container">
 				<div class="home_content text-center">
 					<div class="home_subtitle">NOVA CHANCE</div>
@@ -63,5 +63,5 @@ Nova Chance - Elementos
 @endsection
 
 @section('js')
-<script src="js/elements.js"></script>
+<script src="/js/elements.js"></script>
 @endsection()

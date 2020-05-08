@@ -13,10 +13,10 @@ Nova Chance - Posts
 @endsection()
 
 @section('css')
-	<link rel="stylesheet" type="text/css" href="styles/blog.css">
-	<link rel="stylesheet" type="text/css" href="styles/blog_responsive.css">
-	<link rel="stylesheet" type="text/css" href="styles/elements.css">
-    <link rel="stylesheet" type="text/css" href="styles/elements_responsive.css">
+	<link rel="stylesheet" type="text/css" href="/styles/blog.css">
+	<link rel="stylesheet" type="text/css" href="/styles/blog_responsive.css">
+	<link rel="stylesheet" type="text/css" href="/styles/elements.css">
+    <link rel="stylesheet" type="text/css" href="/styles/elements_responsive.css">
 @endsection()
 
 @section('content')
@@ -29,7 +29,7 @@ Nova Chance - Posts
 	<div class="home">
 		<div class="home_inner">
 			<!-- Image artist: https://unsplash.com/@yoannboyer -->
-			<div class="parallax_background parallax-window" data-parallax="scroll" data-image-src="images/newspaper.jpg" data-speed="0.8"></div>
+			<div class="parallax_background parallax-window" data-parallax="scroll" data-image-src="/images/newspaper.jpg" data-speed="0.8"></div>
 			<div class="home_container">
 				<div class="home_content text-center">
 					<div class="home_subtitle">NOVA CHANCE</div>
@@ -87,7 +87,7 @@ Nova Chance - Posts
 								<div>26</div>
 								<div>2018</div>
 							</div>
-							<div class="blog_post_image"><img src="images/blog_1.jpg" alt="https://unsplash.com/@stevenerixon"></div>
+							<div class="blog_post_image"><img src="/images/blog_1.jpg" alt="https://unsplash.com/@stevenerixon"></div>
 							<div class="blog_post_title"><h2><a href="#">How to get the best playlist</a></h2></div>
 							<div class="blog_post_info">
 								<ul class="d-flex flex-row align-items-start justify-content-start">
@@ -171,7 +171,7 @@ Nova Chance - Posts
 								<div>26</div>
 								<div>2018</div>
 							</div>
-							<div class="blog_post_image"><img src="images/blog_2.jpg" alt="https://unsplash.com/@clesulie"></div>
+							<div class="blog_post_image"><img src="/images/blog_2.jpg" alt="https://unsplash.com/@clesulie"></div>
 							<div class="blog_post_title"><h2><a href="#">The best sound of 2018</a></h2></div>
 							<div class="blog_post_info">
 								<ul class="d-flex flex-row align-items-start justify-content-start">
@@ -223,7 +223,7 @@ Nova Chance - Posts
 
 								<!-- Latest News -->
 								<div class="latest_news d-flex flex-row align-items-start justify-content-start">
-									<div class="latest_news_image"><img src="images/latest_1.jpg" alt="https://unsplash.com/@dannykekspro"></div>
+									<div class="latest_news_image"><img src="/images/latest_1.jpg" alt="https://unsplash.com/@dannykekspro"></div>
 									<div class="latest_news_content">
 										<div class="latest_news_date"><a href="#">July 26, 2018</a></div>
 										<div class="latest_news_title"><a href="#">How to get the best playlist</a></div>
@@ -232,7 +232,7 @@ Nova Chance - Posts
 
 								<!-- Latest News -->
 								<div class="latest_news d-flex flex-row align-items-start justify-content-start">
-									<div class="latest_news_image"><img src="images/latest_2.jpg" alt="https://unsplash.com/@rexcuando"></div>
+									<div class="latest_news_image"><img src="/images/latest_2.jpg" alt="https://unsplash.com/@rexcuando"></div>
 									<div class="latest_news_content">
 										<div class="latest_news_date"><a href="#">July 26, 2018</a></div>
 										<div class="latest_news_title"><a href="#">How to get the best playlist</a></div>
@@ -241,7 +241,7 @@ Nova Chance - Posts
 
 								<!-- Latest News -->
 								<div class="latest_news d-flex flex-row align-items-start justify-content-start">
-									<div class="latest_news_image"><img src="images/latest_3.jpg" alt="https://unsplash.com/@arstyy"></div>
+									<div class="latest_news_image"><img src="/images/latest_3.jpg" alt="https://unsplash.com/@arstyy"></div>
 									<div class="latest_news_content">
 										<div class="latest_news_date"><a href="#">July 26, 2018</a></div>
 										<div class="latest_news_title"><a href="#">How to get the best playlist</a></div>
@@ -262,5 +262,5 @@ Nova Chance - Posts
 @endsection
 
 @section('js')
-<script src="js/blog.js"></script>
+<script src="/js/blog.js"></script>
 @endsection()

@@ -13,8 +13,8 @@ Nova Chance
 @endsection()
 
 @section('css')
-	<link rel="stylesheet" type="text/css" href="styles/main_styles.css">
-	<link rel="stylesheet" type="text/css" href="styles/responsive.css">
+	<link rel="stylesheet" type="text/css" href="/styles/main_styles.css">
+	<link rel="stylesheet" type="text/css" href="/styles/responsive.css">
 @endsection()
 
 
@@ -29,7 +29,7 @@ Nova Chance
 				
 				<!-- Slide -->
 				<div class="owl-item">
-					<div class="background_image" style="background-image:url(images/nc_capa.png)"></div>
+					<div class="background_image" style="background-image:url(/images/nc_capa.png)"></div>
 					<div class="home_container">
 						<div class="home_container_inner d-flex flex-column align-items-center justify-content-center">
 							<div class="home_content text-center">
@@ -43,7 +43,7 @@ Nova Chance
 
 				<!-- Slide
 				<div class="owl-item">
-					<div class="background_image" style="background-image:url(images/index.jpg)"></div>
+					<div class="background_image" style="background-image:url(/images/index.jpg)"></div>
 					<div class="home_container">
 						<div class="home_container_inner d-flex flex-column align-items-center justify-content-center">
 							<div class="home_content text-center">
@@ -57,7 +57,7 @@ Nova Chance
 
 				Slide
 				<div class="owl-item">
-					<div class="background_image" style="background-image:url(images/index.jpg)"></div>
+					<div class="background_image" style="background-image:url(/images/index.jpg)"></div>
 					<div class="home_container">
 						<div class="home_container_inner d-flex flex-column align-items-center justify-content-center">
 							<div class="home_content text-center">
@@ -83,7 +83,7 @@ Nova Chance
 				<!-- Artist Image -->
 				<div class="col-lg-4 artist_image_col">
 					<div class="artist_image">
-						<img src="images/ap.jpg" alt="">
+						<img src="/images/ap.jpg" alt="">
 					</div>
 				</div>
 
@@ -98,7 +98,7 @@ Nova Chance
 							<p> In vitae nisi aliquam, scelerisque leo a, volutpat sem. Vivamus rutrum dui fermentum eros hendrerit, id lobortis leo volutpat. Maecenas sollicitudin est in libero pretium interdum. Nullam volutpat dui sem, ac congue purus luctus nec. Curabitur luctus luctus erat, sit amet facilisis quam congue quis. Quisque ornare luctus erat id dignissim. Nullam ac nunc quis ex porttitor luctus.</p>
 							<p>Integer sed facilisis eros. In iaculis rhoncus velit in malesuada. In hac habitasse platea dictumst. Fusce erat ex, consectetur sit amet ornare suscipit, porta et erat. Donec nec nisi in nibh commodo laoreet. Mauris dapibus justo ut feugiat malesuada. Fusce ultricies ante tortor, non vestibulum est feugiat ut.</p>
 						</div>
-						<div class="artist_sig"><img src="images/sig.png" alt=""></div>
+						<div class="artist_sig"><img src="/images/sig.png" alt=""></div>
 						<!-- PLAYER AUDIO <div class="single_player_container d-flex flex-column align-items-start justify-content-center">
 							<div class="single_player">
 								<div id="jplayer_2" class="jp-jplayer"></div>
@@ -231,7 +231,7 @@ Nova Chance
 				<div class="col-lg-4 order-lg-2 order-1">
 					<div class="shows_image">
 						<div class="image_overlay"></div>
-						<img src="images/nc3.png" alt="https://unsplash.com/@anthonydelanoix">
+						<img src="/images/nc3.png" alt="https://unsplash.com/@anthonydelanoix">
 					</div>
 				</div>
 
@@ -243,7 +243,7 @@ Nova Chance
 
 	<div class="extra" style="margin-top:100px;">
 		<div class="extra_container">
-			<div class="background_image" style="background-image:url(images/vol.jpg)"></div>
+			<div class="background_image" style="background-image:url(/images/vol.jpg)"></div>
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-9">
@@ -265,5 +265,5 @@ Nova Chance
 @endsection
 
 @section('js')
-<script src="js/custom.js"></script>
+<script src="/js/custom.js"></script>
 @endsection()
