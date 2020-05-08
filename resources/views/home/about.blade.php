@@ -13,8 +13,8 @@ Nova Chance - Sobre
 @endsection()
 
 @section('css')
-	<link rel="stylesheet" type="text/css" href="styles/about.css">
-	<link rel="stylesheet" type="text/css" href="styles/about_responsive.css">
+	<link rel="stylesheet" type="text/css" href="/styles/about.css">
+	<link rel="stylesheet" type="text/css" href="/styles/about_responsive.css">
 @endsection()
 
 @section('content')	
@@ -24,7 +24,7 @@ Nova Chance - Sobre
 	<div class="home">
 		<div class="home_inner">
 			<!-- Image artist: https://unsplash.com/@yoannboyer -->
-			<div class="parallax_background parallax-window" data-parallax="scroll" data-image-src="images/leaf.jpg" data-speed="0.8"></div>
+			<div class="parallax_background parallax-window" data-parallax="scroll" data-image-src="/images/leaf.jpg" data-speed="0.8"></div>
 			<div class="home_container">
 				<div class="home_content text-center">
 					<div class="home_subtitle">NOVA CHANCE</div>
@@ -39,7 +39,7 @@ Nova Chance - Sobre
 	<!-- Artist -->
 
 	<div class="artist" style="margin-top:50px;">
-		<div class="parallax_background parallax-window" data-parallax="scroll" data-image-src="images/nc2.jpg" data-speed="0.8"></div>
+		<div class="parallax_background parallax-window" data-parallax="scroll" data-image-src="/images/nc2.jpg" data-speed="0.8"></div>
 		<div class="container">
 			<div class="row">
 
@@ -54,7 +54,7 @@ Nova Chance - Sobre
 							<p> In vitae nisi aliquam, scelerisque leo a, volutpat sem. Vivamus rutrum dui fermentum eros hendrerit, id lobortis leo volutpat. Maecenas sollicitudin est in libero pretium interdum. Nullam volutpat dui sem, ac congue purus luctus nec. Curabitur luctus luctus erat, sit amet facilisis quam congue quis. Quisque ornare luctus erat id dignissim. Nullam ac nunc quis ex porttitor luctus.</p>
 							<p>Integer sed facilisis eros. In iaculis rhoncus velit in malesuada. In hac habitasse platea dictumst. Fusce erat ex, consectetur sit amet ornare suscipit, porta et erat. Donec nec nisi in nibh commodo laoreet. Mauris dapibus justo ut feugiat malesuada. Fusce ultricies ante tortor, non vestibulum est feugiat ut.</p>
 						</div>
-						<div class="artist_sig"><img src="images/sig.png" alt=""></div>
+						<div class="artist_sig"><img src="/images/sig.png" alt=""></div>
 						<div class="single_player_container d-flex flex-column align-items-start justify-content-center">
 							<div class="single_player">
 								<div id="jplayer_2" class="jp-jplayer"></div>
@@ -113,7 +113,7 @@ Nova Chance - Sobre
 				<div class="col-xl-4 col-md-6">
 					<div class="disc">
 						<a href="single.html">
-							<div class="disc_image"><img src="images/disc_1.jpg" alt="https://unsplash.com/@tanelah"></div>
+							<div class="disc_image"><img src="/images/disc_1.jpg" alt="https://unsplash.com/@tanelah"></div>
 							<div class="disc_container">
 								<div>
 									<div class="disc_content_1">
@@ -130,7 +130,7 @@ Nova Chance - Sobre
 				<div class="col-xl-4 col-md-6">
 					<div class="disc">
 						<a href="single.html">
-							<div class="disc_image"><img src="images/disc_2.jpg" alt="https://unsplash.com/@kasperrasmussen"></div>
+							<div class="disc_image"><img src="/images/disc_2.jpg" alt="https://unsplash.com/@kasperrasmussen"></div>
 							<div class="disc_container">
 								<div>
 									<div class="disc_content_2 d-flex flex-column align-items-center justify-content-center">
@@ -149,7 +149,7 @@ Nova Chance - Sobre
 				<div class="col-xl-4 col-md-6">
 					<div class="disc">
 						<a href="single.html">
-							<div class="disc_image"><img src="images/disc_3.jpg" alt="https://unsplash.com/@photones11"></div>
+							<div class="disc_image"><img src="/images/disc_3.jpg" alt="https://unsplash.com/@photones11"></div>
 							<div class="disc_container">
 								<div>
 									<div class="disc_content_3">
@@ -168,7 +168,7 @@ Nova Chance - Sobre
 				<div class="col-xl-4 col-md-6">
 					<div class="disc">
 						<a href="single.html">
-							<div class="disc_image"><img src="images/disc_4.jpg" alt="https://unsplash.com/@rexcuando"></div>
+							<div class="disc_image"><img src="/images/disc_4.jpg" alt="https://unsplash.com/@rexcuando"></div>
 							<div class="disc_container">
 								<div>
 									<div class="disc_content_4 d-flex flex-column align-items-start justify-content-end">
@@ -187,7 +187,7 @@ Nova Chance - Sobre
 				<div class="col-xl-4 col-md-6">
 					<div class="disc">
 						<a href="single.html">
-							<div class="disc_image"><img src="images/disc_5.jpg" alt="https://unsplash.com/@alicemoore"></div>
+							<div class="disc_image"><img src="/images/disc_5.jpg" alt="https://unsplash.com/@alicemoore"></div>
 							<div class="disc_container">
 								<div>
 									<div class="disc_content_5">
@@ -203,7 +203,7 @@ Nova Chance - Sobre
 				<div class="col-xl-4 col-md-6">
 					<div class="disc">
 						<a href="single.html">
-							<div class="disc_image"><img src="images/disc_6.jpg" alt="https://unsplash.com/@arstyy"></div>
+							<div class="disc_image"><img src="/images/disc_6.jpg" alt="https://unsplash.com/@arstyy"></div>
 							<div class="disc_container">
 								<div>
 									<div class="disc_content_6">
@@ -224,14 +224,14 @@ Nova Chance - Sobre
 
 	<div class="milestones">
 		<div class="milestones_container">
-			<div class="parallax_background parallax-window" data-parallax="scroll" data-image-src="images/milestones.jpg" data-speed="0.8"></div>
+			<div class="parallax_background parallax-window" data-parallax="scroll" data-image-src="/images/milestones.jpg" data-speed="0.8"></div>
 			<div class="container">
 				<div class="row milestones_row">
 					
 					 Milestone 
 					<div class="col-xl-3 col-md-6 milestone_col">
 						<div class="milestone d-flex flex-row align-items-center justify-content-start">
-							<div class="milestone_icon"><img src="images/icon_1.svg" alt="https://www.flaticon.com/authors/smashicons"></div>
+							<div class="milestone_icon"><img src="/images/icon_1.svg" alt="https://www.flaticon.com/authors/smashicons"></div>
 							<div class="milestone_content">
 								<div class="milestone_counter" data-end-value="298" data-sign-after="k">0</div>
 								<div class="milestone_text">Albums sold</div>
@@ -242,7 +242,7 @@ Nova Chance - Sobre
 					 Milestone 
 					<div class="col-xl-3 col-md-6 milestone_col">
 						<div class="milestone d-flex flex-row align-items-center justify-content-start">
-							<div class="milestone_icon"><img src="images/icon_2.svg" alt="https://www.flaticon.com/authors/smashicons"></div>
+							<div class="milestone_icon"><img src="/images/icon_2.svg" alt="https://www.flaticon.com/authors/smashicons"></div>
 							<div class="milestone_content">
 								<div class="milestone_counter" data-end-value="183">0</div>
 								<div class="milestone_text">Live Concerts</div>
@@ -253,7 +253,7 @@ Nova Chance - Sobre
 					 Milestone 
 					<div class="col-xl-3 col-md-6 milestone_col">
 						<div class="milestone d-flex flex-row align-items-center justify-content-start">
-							<div class="milestone_icon"><img src="images/icon_3.svg" alt="https://www.flaticon.com/authors/smashicons"></div>
+							<div class="milestone_icon"><img src="/images/icon_3.svg" alt="https://www.flaticon.com/authors/smashicons"></div>
 							<div class="milestone_content">
 								<div class="milestone_counter" data-end-value="37">0</div>
 								<div class="milestone_text">Awards won</div>
@@ -264,7 +264,7 @@ Nova Chance - Sobre
 					 Milestone 
 					<div class="col-xl-3 col-md-6 milestone_col">
 						<div class="milestone d-flex flex-row align-items-center justify-content-start">
-							<div class="milestone_icon"><img src="images/icon_4.svg" alt="https://www.flaticon.com/authors/smashicons"></div>
+							<div class="milestone_icon"><img src="/images/icon_4.svg" alt="https://www.flaticon.com/authors/smashicons"></div>
 							<div class="milestone_content">
 								<div class="milestone_counter" data-end-value="14">0</div>
 								<div class="milestone_text">New Singles</div>
@@ -281,5 +281,5 @@ Nova Chance - Sobre
 @endsection
 
 @section('js')
-<script src="js/about.js"></script>
+<script src="/js/about.js"></script>
 @endsection()
