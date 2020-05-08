@@ -46,7 +46,7 @@ Nova Chance - Posts
 			<div class="row">
 				
 				<!-- Blog Posts -->
-				<div class="col-lg-9" style="background-color:rgb(10,10,10);">
+				<div class="col-lg-9">
 					<div class="blog_posts">
 						@auth
 						<div style="margin-top: 15px;" class="button button_3 trans_200"><a href="ncnews/create">Criar nova postagem</a></div>
@@ -54,7 +54,7 @@ Nova Chance - Posts
 
 						@foreach($posts as $post)
 
-							<div class="blog_post">
+							<div class="blog_post" style="padding:20px; border-width:2px; border-style:solid; border-color:#df5136;">
 								<div class="blog_post_date d-flex flex-column align-items-center justify-content-center">
 									<div>{{$post->created_at->format('d')}}</div>
 									<div>{{$post->created_at->format('m')}}</div>
@@ -63,9 +63,11 @@ Nova Chance - Posts
 								
 								@if(file_exists(public_path('images/fotos_posts/'.md5($post->id))))
 									<div class="blog_post_image"><img src="{{asset('images/fotos_posts/'.md5($post->id))}}"></div>
+									<div style="margin-top: 40px;" class="blog_post_title"><h2>{{$post->titulo}}</h2></div>
+								@else
+									<div style="margin-top: 0;" class="blog_post_title"><h2>{{$post->titulo}}</h2></div>
 								@endif
-								<!---->
-								<div class="blog_post_title"><h2>{{$post->titulo}}</h2></div>
+
 								<div class="blog_post_info">
 									<ul class="d-flex flex-row align-items-start justify-content-start">
 										<li>Por: {{$users->find($post->users_id)->name}}</li>
@@ -77,7 +79,6 @@ Nova Chance - Posts
 								</div>
 							</div>
 						@endforeach
-						
 
 
 						<!-- Blog Post 
@@ -218,36 +219,38 @@ Nova Chance - Posts
 							</div>
 						</div>
 						<div class="sidebar_section">
-							<div class="sidebar_title">Latest News</div>
+							<div class="sidebar_title">Últimas Postagens</div>
 							<div class="latest_news_list">
-
-								<!-- Latest News -->
-								<div class="latest_news d-flex flex-row align-items-start justify-content-start">
-									<div class="latest_news_image"><img src="/images/latest_1.jpg" alt="https://unsplash.com/@dannykekspro"></div>
-									<div class="latest_news_content">
-										<div class="latest_news_date"><a href="#">July 26, 2018</a></div>
-										<div class="latest_news_title"><a href="#">How to get the best playlist</a></div>
-									</div>
-								</div>
-
-								<!-- Latest News -->
-								<div class="latest_news d-flex flex-row align-items-start justify-content-start">
-									<div class="latest_news_image"><img src="/images/latest_2.jpg" alt="https://unsplash.com/@rexcuando"></div>
-									<div class="latest_news_content">
-										<div class="latest_news_date"><a href="#">July 26, 2018</a></div>
-										<div class="latest_news_title"><a href="#">How to get the best playlist</a></div>
-									</div>
-								</div>
-
-								<!-- Latest News -->
-								<div class="latest_news d-flex flex-row align-items-start justify-content-start">
-									<div class="latest_news_image"><img src="/images/latest_3.jpg" alt="https://unsplash.com/@arstyy"></div>
-									<div class="latest_news_content">
-										<div class="latest_news_date"><a href="#">July 26, 2018</a></div>
-										<div class="latest_news_title"><a href="#">How to get the best playlist</a></div>
-									</div>
-								</div>
-
+								<?php 
+									$var = 0;
+									foreach($posts as $post){
+										if($var >= 3){
+											break;
+										}
+										if(file_exists(public_path('images/fotos_posts/'.md5($post->id)))){
+											echo '
+												<div class="latest_news d-flex flex-row align-items-start justify-content-start">
+													<div class="latest_news_image"><img src="'.asset("images/fotos_posts/".md5($post->id)).'"></div>
+													<div class="latest_news_content">
+														<div class="latest_news_date"><a href="#">'.$post->created_at->format('d/m/Y').'</a></div>
+														<div class="latest_news_title"><a href="#">'.$post->titulo.'</a></div>
+													</div>
+												</div>
+											';
+										}else{
+											echo '
+												<div class="latest_news d-flex flex-row align-items-start justify-content-start">
+													<div class="latest_news_content">
+														<div class="latest_news_date"><a href="#">'.$post->created_at->format('d/m/Y').'</a></div>
+														<div class="latest_news_title"><a href="#">'.$post->titulo.'</a></div>
+													</div>
+												</div>
+											';
+										}
+										
+										$var++;
+									}
+								?>
 							</div>
 						</div>
 					</div>

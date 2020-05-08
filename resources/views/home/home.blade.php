@@ -29,33 +29,30 @@ Nova Chance
 				
 				<!-- Slide -->
 				<div class="owl-item">
+					<div class="background_image" style="background-image:url(/images/index.jpg)"></div>
+					<div class="home_container">
+						<div class="home_container_inner d-flex flex-column align-items-center justify-content-center">
+							<div class="home_content text-center">
+								<div class="home_subtitle">Reinamos em vida</div>
+								<div class="home_title"><h1>NOVA CHANCE</h1></div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- Slide -->
+				<div class="owl-item">
 					<div class="background_image" style="background-image:url(/images/nc_capa.png)"></div>
 					<div class="home_container">
 						<div class="home_container_inner d-flex flex-column align-items-center justify-content-center">
 							<div class="home_content text-center">
-								<!--<div class="home_subtitle">Reinamos em vida</div>
-								<div class="home_title"><h1>Nova Chance</h1></div>
-								<div class="home_link"><a href="#">LNC ON TV</a></div>-->
+								<div class="home_link" style="top: 100px;"><a href="/aovivo">NC AO VIVO</a></div>
 							</div>
 						</div>
 					</div>
 				</div>
 
 				<!-- Slide
-				<div class="owl-item">
-					<div class="background_image" style="background-image:url(/images/index.jpg)"></div>
-					<div class="home_container">
-						<div class="home_container_inner d-flex flex-column align-items-center justify-content-center">
-							<div class="home_content text-center">
-								<div class="home_subtitle">New single release</div>
-								<div class="home_title"><h1>Love is all around</h1></div>
-								<div class="home_link"><a href="#">Listen on Soundcloud</a></div>
-							</div>
-						</div>
-					</div>
-				</div>
-
-				Slide
 				<div class="owl-item">
 					<div class="background_image" style="background-image:url(/images/index.jpg)"></div>
 					<div class="home_container">
@@ -243,7 +240,7 @@ Nova Chance
 
 	<div class="extra" style="margin-top:100px;">
 		<div class="extra_container">
-			<div class="background_image" style="background-image:url(/images/vol.jpg)"></div>
+			<div class="background_image" style="background-image:url(/images/extra.jpg)"></div>
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-9">
@@ -252,7 +249,7 @@ Nova Chance
 							<div class="extra_text">
 								<p>In vitae nisi aliquam, scelerisque leo a, volutpat sem. Vivamus rutrum dui fermentum eros hendrerit, id lobortis leo volutpat. Maecenas sollicitudin est in libero pretium interdum</p>
 							</div>
-							<!--<div class="extra_button"><a href="#">Buy Now</a></div>-->
+							<div class="extra_button"><a href="/contato">Quero ser um voluntário</a></div>
 						</div>
 					</div>
 				</div>
