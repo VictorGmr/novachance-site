@@ -73,7 +73,7 @@ class PostController extends Controller
      */
     public function edit(Post $post)
     {
-        //
+        return view('post.edit', array('post' => $post));
     }
 
     /**
@@ -85,7 +85,18 @@ class PostController extends Controller
      */
     public function update(Request $request, Post $post)
     {
-        //
+        
+        if($post->update($request->all())){
+            if($request->hasFile('foto')){
+                $foto = $request->file('foto');
+                $nomearquivo = md5($post->id);
+                $request->file('foto')->move(public_path('images/fotos_posts/'), $nomearquivo);
+            }
+            return redirect('ncnews');
+        }else{
+            dd('erro');
+        }
+
     }
 
     /**
@@ -96,6 +107,7 @@ class PostController extends Controller
      */
     public function destroy(Post $post)
     {
-        //
+        $post->delete();
+        return redirect('ncnews')->with('success_message', 'teste');
     }
 }
