@@ -9,7 +9,7 @@
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
     <title>@yield('title')</title>
-    <link rel="stylesheet" type="text/css" href="/styles/bootstrap-4.1.2/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="/styles/bootstrap-4.4.1/bootstrap.min.css">
     <link href="/plugins/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" type="text/css" href="/plugins/OwlCarousel2-2.2.1/owl.carousel.css">
     <link rel="stylesheet" type="text/css" href="/plugins/OwlCarousel2-2.2.1/owl.theme.default.css">
@@ -195,8 +195,8 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 </div>
 
 <script src="/js/jquery-3.2.1.min.js"></script>
-<script src="/styles/bootstrap-4.1.2/popper.js"></script>
-<script src="/styles/bootstrap-4.1.2/bootstrap.min.js"></script>
+<script src="/styles/bootstrap-4.4.1/popper.js"></script>
+<script src="/styles/bootstrap-4.4.1/bootstrap.min.js"></script>
 <script src="/plugins/greensock/TweenMax.min.js"></script>
 <script src="/plugins/greensock/TimelineMax.min.js"></script>
 <script src="/plugins/scrollmagic/ScrollMagic.min.js"></script>
