@@ -44,7 +44,8 @@ Nova Chance - Login
 				<div class="col-lg-12">
 					<div class="contact_form_container" style="max-width=200%;text-align:center;position:relative;">
 						<div class="contact_title">Crie sua nova conta:</div>
-						<form action="{{ route('register') }}" method="POST" class="contact_form" id="contact_form">
+						<!--<form action="{{ route('register') }}" method="POST" class="contact_form" id="contact_form">-->
+                        <form action="#" method="POST" class="contact_form" id="contact_form">
                             @csrf
 
                             <div>
@@ -82,7 +83,7 @@ Nova Chance - Login
                             </div>
 							
                             <div style="text-align:center;">
-                                <button style="display:inline-block;" type="submit"class="contact_button">Criar</button>
+                                <button onclick="alert('Olá, por favor aguarde o lançamento do site oficial para que seja possível criar novas contas.')" style="display:inline-block;" type="submit"class="contact_button">Criar</button>
                                 
                                 <!--@if (Route::has('password.request'))
                                     <a style="display:inline-block;" class="btn btn-link" href="{{ route('password.request') }}">
