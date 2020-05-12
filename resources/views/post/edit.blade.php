@@ -13,8 +13,8 @@ Nova Chance - Editar Post
 @endsection()
 	
 @section('css')
-	<link rel="stylesheet" type="text/css" href="/styles/contact.css">
-	<link rel="stylesheet" type="text/css" href="/styles/contact_responsive.css">
+	<link rel="stylesheet" type="text/css" href="/styles/contato.css">
+	<link rel="stylesheet" type="text/css" href="/styles/contato_responsive.css">
 @endsection()
 
 @section('content')
@@ -70,5 +70,5 @@ Nova Chance - Editar Post
 @endsection
 
 @section('js')
-<script src="/js/contact.js"></script>
+<script src="/js/contato.js"></script>
 @endsection()
