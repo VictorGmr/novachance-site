@@ -137,10 +137,13 @@
 		<div class="footer_container d-flex flex-xl-row flex-column align-items-start justify-content-start">
 			<div class="newsletter_container">
 				<div class="newsletter_title"><h2>Receba nossas notícias em seu e-mail</h2></div>
-				<!--<form method="POST" action="/home/inscrever-se" id="newsletter_form" class="newsletter_form">-->
-				<form method="GET" action="#" id="newsletter_form" class="newsletter_form">
+				<!--<form method="POST" action="/home/inscrever-se" id="newsletter_form" class="newsletter_form">
 					@csrf
 					<input type="email" name="email" class="newsletter_input" placeholder="Seu E-mail" required="required">
+					<button type="submit" class="newsletter_button">Inscreva-se</button>
+				</form>-->
+				<form method="GET" action="/home" id="newsletter_form" class="newsletter_form">
+					<input type="email" class="newsletter_input" placeholder="Seu E-mail" required="required">
 					<button type="submit" class="newsletter_button">Inscreva-se</button>
 				</form>
 			</div>
