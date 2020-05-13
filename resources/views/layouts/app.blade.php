@@ -27,7 +27,7 @@
     <!-- Header -->
 	<header class="header">
 		<div class="header_content d-flex flex-row align-items-center justify-content-center">
-			<div class="logo"><a href="#">NOVA CHANCE</a></div>
+			<div class="logo"><a href="/home"><img src="/images/logoNC.png"></a></div>
 			<div class="log_reg">
 				<ul class="d-flex flex-row align-items-start justify-content-start">
                     <!-- Authentication Links -->

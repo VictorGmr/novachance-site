@@ -34,7 +34,7 @@ Nova Chance
 						<div class="home_container_inner d-flex flex-column align-items-center justify-content-center">
 							<div class="home_content text-center">
 								<div class="home_subtitle">Reinamos em vida</div>
-								<div class="home_title"><h1>NOVA CHANCE</h1></div>
+								<div class="home_title"><p id="novachance-titulo">NOVA CHANCE</p></div>
 							</div>
 						</div>
 					</div>
@@ -95,7 +95,6 @@ Nova Chance
 							<p> In vitae nisi aliquam, scelerisque leo a, volutpat sem. Vivamus rutrum dui fermentum eros hendrerit, id lobortis leo volutpat. Maecenas sollicitudin est in libero pretium interdum. Nullam volutpat dui sem, ac congue purus luctus nec. Curabitur luctus luctus erat, sit amet facilisis quam congue quis. Quisque ornare luctus erat id dignissim. Nullam ac nunc quis ex porttitor luctus.</p>
 							<p>Integer sed facilisis eros. In iaculis rhoncus velit in malesuada. In hac habitasse platea dictumst. Fusce erat ex, consectetur sit amet ornare suscipit, porta et erat. Donec nec nisi in nibh commodo laoreet. Mauris dapibus justo ut feugiat malesuada. Fusce ultricies ante tortor, non vestibulum est feugiat ut.</p>
 						</div>
-						<div class="artist_sig"><img src="/images/sig.png" alt=""></div>
 						<!-- PLAYER AUDIO <div class="single_player_container d-flex flex-column align-items-start justify-content-center">
 							<div class="single_player">
 								<div id="jplayer_2" class="jp-jplayer"></div>
@@ -169,7 +168,7 @@ Nova Chance
 							<li class="d-flex flex-row align-items-center justify-content-start">
 								<div><div class="show_date">DOM</div></div>
 								<div class="show_info d-flex flex-md-row flex-column align-items-md-center align-items-start justify-content-md-start justify-content-center">
-									<div class="show_name"><a href="#">Culto de Celebração</a></div>
+									<div class="show_name"><p style="font-size:18px;">Culto de Celebração</p></div>
 									<div class="show_location">10:00 e 18:30</div>
 								</div>
 								<!--<div class="ml-auto"><div class="show_shop trans_200"><a href="#">Buy Tickets</a></div></div>-->
@@ -179,7 +178,7 @@ Nova Chance
 							<li class="d-flex flex-row align-items-center justify-content-start">
 								<div><div class="show_date">SEG</div></div>
 								<div class="show_info d-flex flex-md-row flex-column align-items-md-center align-items-start justify-content-md-start justify-content-center">
-									<div class="show_name"><a href="#">Culto Resgate da Alma</a></div>
+									<div class="show_name"><p style="font-size:18px;">Culto Resgate da Alma</p></div>
 									<div class="show_location">20:00</div>
 								</div>
 							</li>
@@ -188,7 +187,7 @@ Nova Chance
 							<li class="d-flex flex-row align-items-center justify-content-start">
 								<div><div class="show_date">TER</div></div>
 								<div class="show_info d-flex flex-md-row flex-column align-items-md-center align-items-start justify-content-md-start justify-content-center">
-									<div class="show_name"><a href="#">Rede da Família</a></div>
+									<div class="show_name"><p style="font-size:18px;">Rede da Família</p></div>
 									<div class="show_location">20:00</div>
 								</div>
 							</li>
@@ -197,7 +196,7 @@ Nova Chance
 							<li class="d-flex flex-row align-items-center justify-content-start">
 								<div><div class="show_date">QUA</div></div>
 								<div class="show_info d-flex flex-md-row flex-column align-items-md-center align-items-start justify-content-md-start justify-content-center">
-									<div class="show_name"><a href="#">Tarde da Benção</a></div>
+									<div class="show_name"><p style="font-size:18px;">Tarde da Benção</p></div>
 									<div class="show_location">16:00</div>
 								</div>
 							</li>
@@ -206,7 +205,7 @@ Nova Chance
 							<li class="d-flex flex-row align-items-center justify-content-start">
 								<div><div class="show_date">SEX</div></div>
 								<div class="show_info d-flex flex-md-row flex-column align-items-md-center align-items-start justify-content-md-start justify-content-center">
-									<div class="show_name"><a href="#">RE9 Teen</a></div>
+									<div class="show_name"><p style="font-size:18px;">RE9 Teen</p></div>
 									<div class="show_location">19:30</div>
 								</div>
 								
@@ -215,7 +214,7 @@ Nova Chance
 							<li class="d-flex flex-row align-items-center justify-content-start">
 								<div><div class="show_date">SAB</div></div>
 								<div class="show_info d-flex flex-md-row flex-column align-items-md-center align-items-start justify-content-md-start justify-content-center">
-									<div class="show_name"><a href="#">RE9 Jovem</a></div>
+									<div class="show_name"><p style="font-size:18px;">RE9 Jovem</p></div>
 									<div class="show_location">19:30</div>
 								</div>
 							</li>
@@ -240,16 +239,35 @@ Nova Chance
 
 	<div class="extra" style="margin-top:100px;">
 		<div class="extra_container">
-			<div class="background_image" style="background-image:url(/images/extra.jpg)"></div>
+			<div class="background_image" style="background-image:url(/images/extra.jpg); object-fit:cover;"></div>
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-9">
 						<div class="extra_content d-flex flex-column align-items-start justify-content-center">
 							<div class="extra_title"><h1>Voluntariado</h1></div>
 							<div class="extra_text">
-								<p>In vitae nisi aliquam, scelerisque leo a, volutpat sem. Vivamus rutrum dui fermentum eros hendrerit, id lobortis leo volutpat. Maecenas sollicitudin est in libero pretium interdum</p>
+								<p>Deseja se tornar um voluntário na Nova Chance e contribuir ainda mais para o reino de Deus? Entre em nosso grupo de voluntários no Whatsapp através do link abaixo.</p>
 							</div>
-							<div class="extra_button"><a href="/contato">Quero ser um voluntário</a></div>
+							<div class="extra_button"><a href="https://chat.whatsapp.com/JBdY5zH1A2SDPR9s4kCUIG">Quero ser um voluntário</a></div>
+						</div>
+					</div>
+				</div>
+			</div>		
+		</div>
+	</div>
+
+	<div class="extra" style="margin-top:100px;">
+		<div class="extra_container">
+			<div class="background_image" style="background-image:url(/images/contatoWhats.jpg)"></div>
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-9">
+						<div class="extra_content d-flex flex-column align-items-start justify-content-center">
+							<div class="extra_title"><h1 style="color:black;">Fale conosco</h1></div>
+							<div class="extra_text">
+								<p style="color:black;">Entre em contato conosco através do Whatsapp pelo link abaixo.</p>
+							</div>
+							<div class="extra_button"><a href="#">Fale conosco</a></div>
 						</div>
 					</div>
 				</div>

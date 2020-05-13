@@ -53,6 +53,19 @@
 	{
 		width: 575px;
 	}
+
+	.main_nav
+	{
+		display: none;
+	}
+	.log_reg
+	{
+		right: 120px;
+	}
+	.hamburger
+	{
+		display: block;
+	}
 }
 
 /************
@@ -112,18 +125,7 @@
 
 @media only screen and (max-width: 991px)
 {
-	.main_nav
-	{
-		display: none;
-	}
-	.log_reg
-	{
-		right: 120px;
-	}
-	.hamburger
-	{
-		display: block;
-	}
+	
 	.disc_content_5 .disc_title
 	{
 		font-size: 75px;
