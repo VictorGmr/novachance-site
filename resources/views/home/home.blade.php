@@ -80,7 +80,7 @@ Nova Chance
 				<!-- Artist Image -->
 				<div class="col-lg-4 artist_image_col">
 					<div class="artist_image">
-						<img src="/images/ap.jpg" alt="">
+						<img src="/images/aps.jpeg">
 					</div>
 				</div>
 
