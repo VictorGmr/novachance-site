@@ -8,7 +8,7 @@ Nova Chance - Elementos
 	<li><a href="/home">INÍCIO</a></li>
 	<li><a href="/sobre">QUEM SOMOS</a></li>
 	<li><a href="/ncnews">NC NEWS</a></li>
-	<li class="active"><a href="/aovivo">CULTO AO VIVO</a></li>
+	<li class="active"><a href="/aovivo">NC ON TV</a></li>
 	<li><a href="/contato">CONTATO</a></li>
 @endsection()
 

@@ -1,14 +1,14 @@
 @extends('layouts.app')
 
 @section('title')
-Nova Chance - Elementos
+Nova Chance - NC ON TV
 @endsection
 
 @section('defineActive')
 	<li><a href="/home">INÍCIO</a></li>
 	<li><a href="/sobre">QUEM SOMOS</a></li>
 	<li><a href="/ncnews">NC NEWS</a></li>
-	<li class="active"><a href="/aovivo">CULTO AO VIVO</a></li>
+	<li class="active"><a href="/aovivo">NC ON TV</a></li>
 	<li><a href="/contato">CONTATO</a></li>
 @endsection()
 
@@ -30,7 +30,7 @@ Nova Chance - Elementos
 			<div class="home_container">
 				<div class="home_content text-center">
 					<div class="home_subtitle">NOVA CHANCE</div>
-					<div class="home_title">CULTO AO VIVO</div>
+					<div class="home_title">NC ON TV</div>
 				</div>
 			</div>
 		</div>

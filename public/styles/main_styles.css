@@ -78,7 +78,7 @@ p a
 	display: inline;
 	position: relative;
 	color: inherit;
-	border-bottom: solid 1px #ffa07f;
+	border-bottom: solid 1px rgb(220,220,220);
 	-webkit-transition: all 200ms ease;
 	-moz-transition: all 200ms ease;
 	-ms-transition: all 200ms ease;
@@ -107,12 +107,12 @@ a, a:hover, a:visited, a:active, a:link
 p a:active
 {
 	position: relative;
-	color: #FF6347;
+	color: rgb(150,150,150);
 }
 p a:hover
 {
 	color: #FFFFFF;
-	background: #ffa07f;
+	background: rgb(220,220,220);
 }
 p a:hover::after
 {
@@ -143,7 +143,7 @@ button:active
 }
 .form-control
 {
-	color: #db5246;
+	color: rgb(140,140,140);
 }
 section
 {
@@ -350,7 +350,7 @@ section
 }
 .log_reg ul li a:hover
 {
-	color: #de4f33;
+	color: rgb(140,140,140);
 }
 .main_nav ul li:not(:last-child)
 {
@@ -506,7 +506,7 @@ section
 	padding-top: 8px;
 	padding-bottom: 8px;
 	margin-bottom: 5px;
-	border-bottom: solid 2px #de4f32;
+	border-bottom: solid 2px rgb(140,140,140);
 }
 .menu_log_reg a
 {
@@ -515,7 +515,7 @@ section
 }
 .menu_log_reg a:hover
 {
-	color: #de4f32;
+	color: rgb(140,140,140);
 }
 .menu_log_reg ul li
 {
@@ -538,7 +538,7 @@ section
 	padding-right: 40px;
 	padding-top: 50px;
 	padding-bottom: 50px;
-	border-bottom: solid 5px #de4f32;
+	border-bottom: solid 5px rgb(140,140,140);
 }
 .menu_nav ul li
 {
@@ -578,7 +578,7 @@ section
 }
 .menu_nav ul li a:hover
 {
-	color: #de4f32;
+	color: rgb(140,140,140);
 }
 
 /*********************************
@@ -685,7 +685,7 @@ section
 }
 .home_link a:hover::before
 {
-	background: #de4f33;
+	background: rgb(140,140,140);
 }
 
 /*********************************
@@ -726,7 +726,7 @@ section
 	right: 0;
 	width: 100%;
 	height: 100%;
-	background: #de4f32;
+	background: rgb(140,140,140);
 	z-index: 1;
 	-webkit-transition: all 1000ms ease;
 	-moz-transition: all 1000ms ease;
@@ -777,7 +777,7 @@ section
 {
 	width: 181px;
 	height: 42px;
-	background: #de4f32;
+	background: rgb(140,140,140);
 	text-align: center;
 }
 .featured_album_link a
@@ -946,7 +946,7 @@ section
 	width: 48px;
 	height: 48px;
 	border-radius: 50%;
-	background: #de4f32;
+	background: rgb(140,140,140);
 	border: none;
 	cursor: pointer;
 	text-align: center;
@@ -1130,10 +1130,11 @@ section
 {
 	width: 78px;
 	height: 60px;
-	background: #de4f32;
+	background: rgb(140,140,140);
 	line-height: 60px;
 	text-align: center;
 	margin-right: 23px;
+	color:black;
 }
 .show_info
 {
@@ -1148,7 +1149,7 @@ section
 }
 .show_name a:hover
 {
-	color: #de4f32;
+	color: rgb(140,140,140);
 }
 .show_location
 {
@@ -1163,7 +1164,7 @@ section
 }
 .show_shop:hover
 {
-	background: #de4f32;
+	background: rgb(140,140,140);
 }
 .show_shop a
 {
@@ -1359,7 +1360,7 @@ section
 	right: 0;
 	width: 139px;
 	height: 50px;
-	background: #de4f32;
+	background: rgb(140,140,140);
 	border: none;
 	outline: none;
 	cursor: pointer;

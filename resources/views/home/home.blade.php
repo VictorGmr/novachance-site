@@ -8,7 +8,7 @@ Nova Chance
 	<li class="active"><a href="/home">INÍCIO</a></li>
 	<li><a href="/sobre">QUEM SOMOS</a></li>
 	<li><a href="/ncnews">NC NEWS</a></li>
-	<li><a href="/aovivo">CULTO AO VIVO</a></li>
+	<li><a href="/aovivo">NC ON TV</a></li>
 	<li><a href="/contato">CONTATO</a></li>
 @endsection()
 
@@ -46,7 +46,7 @@ Nova Chance
 					<div class="home_container">
 						<div class="home_container_inner d-flex flex-column align-items-center justify-content-center">
 							<div class="home_content text-center">
-								<div class="home_link" style="top: 100px;"><a href="/aovivo">NC AO VIVO</a></div>
+								<div class="home_link" style="top: 100px;"><a href="/aovivo">NC ON TV</a></div>
 							</div>
 						</div>
 					</div>
@@ -248,7 +248,7 @@ Nova Chance
 							<div class="extra_text">
 								<p>Deseja se tornar um voluntário na Nova Chance e contribuir ainda mais para o reino de Deus? Entre em nosso grupo de voluntários no Whatsapp através do link abaixo.</p>
 							</div>
-							<div class="extra_button"><a href="https://chat.whatsapp.com/JBdY5zH1A2SDPR9s4kCUIG">Quero ser um voluntário</a></div>
+							<div class="extra_button"><a href="https://chat.whatsapp.com/JBdY5zH1A2SDPR9s4kCUIG" target="_blank">Quero ser um voluntário</a></div>
 						</div>
 					</div>
 				</div>
@@ -263,11 +263,11 @@ Nova Chance
 				<div class="row">
 					<div class="col-lg-9">
 						<div class="extra_content d-flex flex-column align-items-start justify-content-center">
-							<div class="extra_title"><h1 style="color:black;">Fale conosco</h1></div>
+							<div class="extra_title"><h1>Fale conosco</h1></div>
 							<div class="extra_text">
-								<p style="color:black;">Entre em contato conosco através do Whatsapp pelo link abaixo.</p>
+								<p>Entre em contato conosco através do Whatsapp pelo link abaixo.</p>
 							</div>
-							<div class="extra_button"><a href="#">Fale conosco</a></div>
+							<div class="extra_button"><a  href="https://wa.me/5563999566733" target="_blank">Fale conosco</a></div>
 						</div>
 					</div>
 				</div>

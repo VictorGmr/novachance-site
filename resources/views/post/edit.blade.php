@@ -8,7 +8,7 @@ Nova Chance - Editar Post
 	<li><a href="/home">INÍCIO</a></li>
 	<li><a href="/sobre">QUEM SOMOS</a></li>
 	<li><a href="/ncnews">NC NEWS</a></li>
-	<li><a href="/aovivo">CULTO AO VIVO</a></li>
+	<li><a href="/aovivo">NC ON TV</a></li>
 	<li><a href="/contato">CONTATO</a></li>
 @endsection()
 	

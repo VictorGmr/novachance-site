@@ -80,7 +80,7 @@ p a
 	display: inline;
 	position: relative;
 	color: inherit;
-	border-bottom: solid 1px #ffa07f;
+	border-bottom: solid 1px rgb(200,200,200);
 	-webkit-transition: all 200ms ease;
 	-moz-transition: all 200ms ease;
 	-ms-transition: all 200ms ease;
@@ -109,12 +109,12 @@ a, a:hover, a:visited, a:active, a:link
 p a:active
 {
 	position: relative;
-	color: #FF6347;
+	color: rgb(140,140,140);
 }
 p a:hover
 {
 	color: #FFFFFF;
-	background: #ffa07f;
+	background: rgb(200,200,200);
 }
 p a:hover::after
 {
@@ -160,7 +160,7 @@ button:active
 }
 .form-control
 {
-	color: #db5246;
+	color: rgb(140,140,140);
 }
 section
 {
@@ -367,7 +367,7 @@ section
 }
 .log_reg ul li a:hover
 {
-	color: #de4f33;
+	color: rgb(140,140,140);
 }
 .main_nav ul li:not(:last-child)
 {
@@ -523,7 +523,7 @@ section
 	padding-top: 8px;
 	padding-bottom: 8px;
 	margin-bottom: 5px;
-	border-bottom: solid 2px #de4f32;
+	border-bottom: solid 2px rgb(140,140,140);
 }
 .menu_log_reg a
 {
@@ -532,7 +532,7 @@ section
 }
 .menu_log_reg a:hover
 {
-	color: #de4f32;
+	color: rgb(140,140,140);
 }
 .menu_log_reg ul li
 {
@@ -555,7 +555,7 @@ section
 	padding-right: 40px;
 	padding-top: 50px;
 	padding-bottom: 50px;
-	border-bottom: solid 5px #de4f32;
+	border-bottom: solid 5px rgb(140,140,140);
 }
 .menu_nav ul li
 {
@@ -595,7 +595,7 @@ section
 }
 .menu_nav ul li a:hover
 {
-	color: #de4f32;
+	color: rgb(140,140,140);
 }
 
 /*********************************
@@ -678,7 +678,7 @@ section
 .contact_input:hover,
 .contact_input:focus
 {
-	border-bottom: solid 3px #de4f32;
+	border-bottom: solid 3px rgb(140,140,140);
 }
 .contact_textarea
 {
@@ -728,10 +728,10 @@ section
 {
 	width: 173px;
 	height: 50px;
-	background: #de4f32;
+	background: rgb(140,140,140);
 	color: #FFFFFF;
 	font-size: 14px;
-	border: solid 3px #de4f32;
+	border: solid 3px rgb(140,140,140);
 	outline: none;
 	cursor: pointer;
 	margin-top: 39px;
@@ -744,7 +744,7 @@ section
 .contact_button:hover
 {
 	background: transparent;
-	color: #de4f32;
+	color: rgb(140,140,140);
 }
 .contact_text
 {
@@ -767,7 +767,7 @@ section
 .contact_info_list ul li > div:first-child > div
 {
 	width: 96px;
-	color: #de4f32;
+	color: rgb(140,140,140);
 }
 .social
 {
@@ -783,7 +783,7 @@ section
 {
 	font-size: 15px;
 	padding: 5px;
-	color: #de4f32;
+	color: rgb(140,140,140);
 }
 .social ul li a i:hover
 {
@@ -862,7 +862,7 @@ section
 	right: 0;
 	width: 139px;
 	height: 50px;
-	background: #de4f32;
+	background: rgb(140,140,140);
 	border: none;
 	outline: none;
 	cursor: pointer;
