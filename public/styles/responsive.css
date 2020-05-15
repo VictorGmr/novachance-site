@@ -38,7 +38,16 @@
 
 @media only screen and (max-width: 1440px)
 {
-	
+	.artist_image_col
+	{
+		top: 130px;
+		
+	}
+	.artist_image img
+	{
+		width: 400px;
+		margin-left:300px;
+	}
 }
 
 /************
@@ -68,6 +77,8 @@
 	{
 		display: block;
 	}
+
+	
 }
 
 /************
