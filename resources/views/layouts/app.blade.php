@@ -9,7 +9,7 @@
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
     <title>@yield('title')</title>
-    <link rel="stylesheet" type="text/css" href="/styles/bootstrap-4.1.2/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="/styles/bootstrap-4.4.1/bootstrap.min.css">
     <link href="/plugins/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" type="text/css" href="/plugins/OwlCarousel2-2.2.1/owl.carousel.css">
     <link rel="stylesheet" type="text/css" href="/plugins/OwlCarousel2-2.2.1/owl.theme.default.css">
@@ -27,7 +27,7 @@
     <!-- Header -->
 	<header class="header">
 		<div class="header_content d-flex flex-row align-items-center justify-content-center">
-			<div class="logo"><a href="#">NOVA CHANCE</a></div>
+			<div class="logo"><a href="/home"><img src="/images/logoNC.png"></a></div>
 			<div class="log_reg">
 				<ul class="d-flex flex-row align-items-start justify-content-start">
                     <!-- Authentication Links -->
@@ -137,9 +137,13 @@
 		<div class="footer_container d-flex flex-xl-row flex-column align-items-start justify-content-start">
 			<div class="newsletter_container">
 				<div class="newsletter_title"><h2>Receba nossas notícias em seu e-mail</h2></div>
-				<form method="POST" action="/home/inscrever-se" id="newsletter_form" class="newsletter_form">
+				<!--<form method="POST" action="/home/inscrever-se" id="newsletter_form" class="newsletter_form">
 					@csrf
 					<input type="email" name="email" class="newsletter_input" placeholder="Seu E-mail" required="required">
+					<button type="submit" class="newsletter_button">Inscreva-se</button>
+				</form>-->
+				<form method="GET" action="/home" id="newsletter_form" class="newsletter_form">
+					<input type="email" class="newsletter_input" placeholder="Seu E-mail" required="required">
 					<button type="submit" class="newsletter_button">Inscreva-se</button>
 				</form>
 			</div>
@@ -195,8 +199,8 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 </div>
 
 <script src="/js/jquery-3.2.1.min.js"></script>
-<script src="/styles/bootstrap-4.1.2/popper.js"></script>
-<script src="/styles/bootstrap-4.1.2/bootstrap.min.js"></script>
+<script src="/styles/bootstrap-4.4.1/popper.js"></script>
+<script src="/styles/bootstrap-4.4.1/bootstrap.min.js"></script>
 <script src="/plugins/greensock/TweenMax.min.js"></script>
 <script src="/plugins/greensock/TimelineMax.min.js"></script>
 <script src="/plugins/scrollmagic/ScrollMagic.min.js"></script>

@@ -24,7 +24,9 @@
 /************
 1. 1600px
 ************/
-
+#novachance-titulo {
+	font-size: 80px;
+}
 @media only screen and (max-width: 1600px)
 {
 	
@@ -52,6 +54,19 @@
 	.footer_lists
 	{
 		width: 575px;
+	}
+
+	.main_nav
+	{
+		display: none;
+	}
+	.log_reg
+	{
+		right: 120px;
+	}
+	.hamburger
+	{
+		display: block;
 	}
 }
 
@@ -112,18 +127,7 @@
 
 @media only screen and (max-width: 991px)
 {
-	.main_nav
-	{
-		display: none;
-	}
-	.log_reg
-	{
-		right: 120px;
-	}
-	.hamburger
-	{
-		display: block;
-	}
+	
 	.featured_album .section_title_container
 	{
 		padding-left: 0;
@@ -415,7 +419,9 @@
 
 @media only screen and (max-width: 539px)
 {
-	
+	#novachance-titulo {
+		font-size: 50px;
+	}
 }
 
 /************

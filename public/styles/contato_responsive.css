@@ -83,10 +83,6 @@
 
 @media only screen and (max-width: 1199px)
 {
-	.milestone
-	{
-		padding-left: 100px;
-	}
 	.footer_lists
 	{
 		width: 667px;
@@ -126,18 +122,9 @@
 @media only screen and (max-width: 991px)
 {
 	
-	.disc_content_5 .disc_title
+	.contact_col
 	{
-		font-size: 75px;
-	}
-	.single_player_container
-	{
-		width: 100%;
-		left: auto;
-	}
-	.milestone
-	{
-		padding-left: 50px;
+		margin-top: 80px;
 	}
 }
 
@@ -177,10 +164,6 @@
 	.home_title
 	{
 		font-size: 56px;
-	}
-	.milestone
-	{
-		padding-left: 0px;
 	}
 	.footer_lists
 	{
@@ -233,46 +216,14 @@
 	{
 		display: block;
 	}
-	.artist
+	.contact_title
 	{
-		padding-top: 142px;
-	}
-	.song_duration
-	{
-		font-size: 14px !important;
-	}
-	.single_player_container
-	{
-		width: 100%;
-		left: auto;
-	}
-	.jp-type-single .player_details
-	{
-		padding-left: 20px;
-		padding-right: 22px;
-	}
-	.jp-type-single .player_controls .jp-interface
-	{
-		padding-left: 20px;
-		padding-right: 22px;
-	}
-	.milestones
-	{
-		padding-left: 15px;
-		padding-right: 15px;
-	}
-	.milestone_counter
-	{
-		font-size: 48px;
+		font-size: 30px;
 	}
 	.footer
 	{
 		padding-left: 15px;
 		padding-right: 15px;
-	}
-	.extra_title h1
-	{
-		font-size: 36px;
 	}
 	.newsletter_input
 	{
