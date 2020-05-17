@@ -54,7 +54,7 @@ Nova Chance - Posts
 
 						@foreach($posts as $post)
 
-							<div class="blog_post" style="padding:20px; border-width:2px; border-style:solid; border-color:#df5136;">
+							<div class="blog_post" style="padding:20px; border-width:2px; border-style:solid; border-color:white">
 								<div class="blog_post_date d-flex flex-column align-items-center justify-content-center">
 									<div>{{$post->created_at->format('d')}}</div>
 									<div>{{$post->created_at->format('m')}}</div>

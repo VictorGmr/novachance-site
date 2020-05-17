@@ -256,24 +256,6 @@ Nova Chance
 		</div>
 	</div>
 
-	<div class="extra" style="margin-top:100px;">
-		<div class="extra_container">
-			<div class="background_image" style="background-image:url(/images/contatoWhats.jpg)"></div>
-			<div class="container">
-				<div class="row">
-					<div class="col-lg-9">
-						<div class="extra_content d-flex flex-column align-items-start justify-content-center">
-							<div class="extra_title"><h1>Fale conosco</h1></div>
-							<div class="extra_text">
-								<p>Entre em contato conosco através do Whatsapp pelo link abaixo.</p>
-							</div>
-							<div class="extra_button"><a  href="https://wa.me/5563999566733" target="_blank">Fale conosco</a></div>
-						</div>
-					</div>
-				</div>
-			</div>		
-		</div>
-	</div>
 
 
 

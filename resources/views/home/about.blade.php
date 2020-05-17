@@ -54,7 +54,9 @@ Nova Chance - Sobre
 							<p> In vitae nisi aliquam, scelerisque leo a, volutpat sem. Vivamus rutrum dui fermentum eros hendrerit, id lobortis leo volutpat. Maecenas sollicitudin est in libero pretium interdum. Nullam volutpat dui sem, ac congue purus luctus nec. Curabitur luctus luctus erat, sit amet facilisis quam congue quis. Quisque ornare luctus erat id dignissim. Nullam ac nunc quis ex porttitor luctus.</p>
 							<p>Integer sed facilisis eros. In iaculis rhoncus velit in malesuada. In hac habitasse platea dictumst. Fusce erat ex, consectetur sit amet ornare suscipit, porta et erat. Donec nec nisi in nibh commodo laoreet. Mauris dapibus justo ut feugiat malesuada. Fusce ultricies ante tortor, non vestibulum est feugiat ut.</p>
 						</div>
-						<div class="artist_sig"><img src="/images/sig.png" alt=""></div>
+
+
+						<!-- MUSIC PLAYER
 						<div class="single_player_container d-flex flex-column align-items-start justify-content-center">
 							<div class="single_player">
 								<div id="jplayer_2" class="jp-jplayer"></div>
@@ -96,7 +98,9 @@ Nova Chance - Sobre
 								</div>
 
 							</div>
-						</div>
+						</div>-->
+
+
 					</div>
 				</div>
 			</div>

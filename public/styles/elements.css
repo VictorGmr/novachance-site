@@ -54,7 +54,7 @@ body
 	font-family: 'Futura', sans-serif;
 	font-size: 14px;
 	font-weight: 400;
-	background: linear-gradient(to bottom, #000000 0%, #1b1b1b 40%);
+	background: rgb(0,0,0);
 	color: #FFFFFF;
 }
 div

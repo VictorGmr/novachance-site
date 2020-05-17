@@ -285,11 +285,14 @@
 	}
 	.artist_image_col
 	{
-		top: 130px;
-	}
-	.artist_image img
-	{
-		max-width: 54%;
+		justify-content: center;
+		text-align: center;
+		align-items: center;
+		position: absolute;
+		margin-right:-100px;
+	    width: 700px;
+	    right: 100px;
+		top: 50px;
 	}
 	.extra_title h1
 	{
@@ -311,6 +314,8 @@
 
 @media only screen and (max-width: 575px)
 {
+	
+
 	h1
 	{
 		font-size: 36px;
@@ -459,5 +464,15 @@
 
 @media only screen and (max-width: 400px)
 {
-	
+	.artist_image_col
+	{
+		justify-content: center;
+		text-align: center;
+		align-items: center;
+		position: absolute;
+		margin-right:-150px;
+	    width: 700px;
+	    right: 100px;
+		top: 50px;
+	}
 }

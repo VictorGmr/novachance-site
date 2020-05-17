@@ -1130,7 +1130,7 @@ section
 {
 	width: 78px;
 	height: 60px;
-	background: rgb(140,140,140);
+	background: rgb(255, 255, 255);
 	line-height: 60px;
 	text-align: center;
 	margin-right: 23px;
@@ -1301,6 +1301,19 @@ section
 	padding-left: 50px;
 	padding-right: 51px;
 }
+
+#contato_button{
+	background-color:white;
+}
+
+#contato_button:hover{
+	background-color: rgba(255,255, 255, 0.5);
+}
+
+#contato_button a{
+	color:black;
+}
+
 .newsletter_container
 {
 	width: 604px;

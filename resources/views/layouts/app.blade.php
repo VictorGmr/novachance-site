@@ -13,7 +13,66 @@
     <link href="/plugins/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" type="text/css" href="/plugins/OwlCarousel2-2.2.1/owl.carousel.css">
     <link rel="stylesheet" type="text/css" href="/plugins/OwlCarousel2-2.2.1/owl.theme.default.css">
-    <link rel="stylesheet" type="text/css" href="/plugins/OwlCarousel2-2.2.1/animate.css">
+	<link rel="stylesheet" type="text/css" href="/plugins/OwlCarousel2-2.2.1/animate.css">
+	
+	<style>
+		#contato_button{
+			background-color:white;
+		}
+
+		#contato_button:hover{
+			background-color: rgba(255,255, 255, 0.5);
+		}
+
+		#contato_button a{
+			color:black;
+		}
+
+		.extra
+		{
+			padding-left: 50px;
+			padding-right: 51px;
+		}
+
+		.extra_content
+		{
+			height: 448px;
+			-webkit-transform: translateY(-5px);
+			-moz-transform: translateY(-5px);
+			-ms-transform: translateY(-5px);
+			-o-transform: translateY(-5px);
+			transform: translateY(-5px);
+		}
+		.extra_title h1
+		{
+			font-size: 60px;
+		}
+		.extra_text
+		{
+			margin-top: 4px;
+		}
+		.extra_button
+		{
+			width: 161px;
+			height: 46px;
+			background: #000000;
+			margin-top: 35px;
+		}
+		.extra_button:hover
+		{
+			background: rgba(0,0,0,0.5);
+		}
+		.extra_button a
+		{
+			display: block;
+			width: 100%;
+			height: 100%;
+			line-height: 46px;
+			color: #FFFFFF;
+			font-size: 14px;
+			text-align: center;
+		}
+	</style>
     @yield('css')
     
     
@@ -133,21 +192,35 @@
 
         <!-- Footer -->
 
-	<footer class="footer">
+	<footer class="footer" style="padding-bottom:30px;">
 		<div class="footer_container d-flex flex-xl-row flex-column align-items-start justify-content-start">
-			<div class="newsletter_container">
-				<div class="newsletter_title"><h2>Receba nossas notícias em seu e-mail</h2></div>
-				<!--<form method="POST" action="/home/inscrever-se" id="newsletter_form" class="newsletter_form">
-					@csrf
-					<input type="email" name="email" class="newsletter_input" placeholder="Seu E-mail" required="required">
-					<button type="submit" class="newsletter_button">Inscreva-se</button>
-				</form>-->
-				<form method="GET" action="/home" id="newsletter_form" class="newsletter_form">
-					<input type="email" class="newsletter_input" placeholder="Seu E-mail" required="required">
-					<button type="submit" class="newsletter_button">Inscreva-se</button>
-				</form>
+
+
+		<div class="extra_content d-flex flex-column align-items-start justify-content-center">
+			<div style="height:max-content; margin-top: 20px; padding: 20px;">
+			<div class="extra_title"><h1>Fale conosco</h1></div>
+			<div class="extra_text">
+				<p>Entre em contato conosco através do Whatsapp pelo link abaixo.</p>
 			</div>
+			<div class="extra_button" id="contato_button"><a href="https://wa.me/5563999566733" target="_blank">Fale conosco</a></div>
+			</div>
+			<p style="margin-top: 60px; color:rgb(140,140,140)">Endereço: 501 Sul, Conjunto 02, Lote 14, Rua NS-A</p>
+			<p style="color:rgb(140,140,140)">Telefone: (63) 3216-2222</p>
+			
+		</div>
+
+
 			<div class="footer_lists d-flex flex-sm-row  flex-column align-items-start justify-content-end ml-xl-auto">
+
+				<!-- Social Networks -->
+				<div class="footer_list">
+					<div class="footer_list_title">Redes Sociais</div>
+					<ul>
+						<li><a href="https://www.youtube.com/user/Studioiir" target="_blank">Youtube</a></li>
+						<li><a href="https://www.facebook.com/novachance.pmw" target="_blank">Facebook</a></li>
+						<li><a href="https://www.instagram.com/novachance.pmw/?hl=pt-br" target="_blank">Instagram</a></li>
+					</ul>
+				</div>
 
 				<!-- Useful Links -->
 				<div class="footer_list">
@@ -158,24 +231,12 @@
 						<li><a href="/ncnews">NC NEWS</a></li>
 						<li><a href="/aovivo">NC ON TV</a></li>
 						<li><a href="/contato">Contato</a></li>
-						<li><a href="https://www.facebook.com/novachance.pmw" target="_blank">Facebook</a></li>
-						<li><a href="https://www.instagram.com/novachance.pmw/?hl=pt-br" target="_blank">Instagram</a></li>
 					</ul>
 				</div>
 
-				<!-- Mixtape 
-				<div class="footer_list">
-					<div class="footer_list_title">Mixtape</div>
-					<ul>
-						<li><a href="#">Music</a></li>
-						<li><a href="#">PR & Marketing</a></li>
-						<li><a href="#">Contact</a></li>
-						<li><a href="#">About us</a></li>
-						<li><a href="#">Testimonials</a></li>
-					</ul>
-				</div>
+				
 
-				 Connect 
+				 <!--Connect 
 				<div class="footer_list">
 					<div class="footer_list_title">Connect</div>
 					<ul>
