@@ -21,7 +21,6 @@ Route::get('/home', 'HomeController@home')->name('home');
 Route::post('/home/inscrever-se', 'HomeController@storeNewsletter')->name('inscrever-se');
 Route::get('/sobre', 'HomeController@sobre')->name('sobre');
 Route::get('/aovivo', 'HomeController@aovivo')->name('aovivo');
-Route::get('/contato', 'HomeController@contato')->name('contato');
 
 
 Route::get('/ncnews', 'PostController@index')->name('ncnews');

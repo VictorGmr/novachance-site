@@ -178,7 +178,6 @@
 						<li><a href="/sobre">QUEM SOMOS</a></li>
 						<li><a href="/ncnews">NC NEWS</a></li>
 						<li><a href="/aovivo">NC ON TV</a></li>
-						<li><a href="/contato">CONTATO</a></li>
 					</ul>
 				</nav>
 			</div>
@@ -230,7 +229,6 @@
 						<li><a href="/sobre">Quem somos</a></li>
 						<li><a href="/ncnews">NC NEWS</a></li>
 						<li><a href="/aovivo">NC ON TV</a></li>
-						<li><a href="/contato">Contato</a></li>
 					</ul>
 				</div>
 

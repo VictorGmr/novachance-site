@@ -1132,8 +1132,8 @@ section
 	height: 60px;
 	background: rgb(255, 255, 255);
 	line-height: 60px;
-	text-align: center;
 	margin-right: 23px;
+	text-align: center;
 	color:black;
 }
 .show_info

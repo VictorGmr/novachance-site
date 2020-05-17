@@ -65,18 +65,7 @@
 		width: 575px;
 	}
 
-	.main_nav
-	{
-		display: none;
-	}
-	.log_reg
-	{
-		right: 120px;
-	}
-	.hamburger
-	{
-		display: block;
-	}
+	
 
 	
 }
@@ -102,7 +91,7 @@
 	}
 	.footer_lists
 	{
-		width: 667px;
+		width: 600px;
 	}
 	.copyright_bar
 	{
@@ -111,6 +100,19 @@
 	.newsletter_container
 	{
 		width: 667px;
+	}
+
+	.main_nav
+	{
+		display: none;
+	}
+	.log_reg
+	{
+		right: 120px;
+	}
+	.hamburger
+	{
+		display: block;
 	}
 }
 
