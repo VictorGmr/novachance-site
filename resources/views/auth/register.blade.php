@@ -43,11 +43,11 @@ Nova Chance - Login
 				<div class="col-lg-12">
 					<div class="contact_form_container" style="max-width=200%;text-align:center;position:relative;">
 						<div class="contact_title">Crie sua nova conta:</div>
-						<!--<form action="{{ route('register') }}" method="POST" class="contact_form" id="contact_form">
+						<form action="{{ route('register') }}" method="POST" class="contact_form" id="contact_form">
                             @csrf
 
                             <div>
-                                <input type="text" style="width:100%;" class="contact_input @error('name') is-invalid @enderror" name="name" placeholder="Nome" autocomplete="name" required="required" autofocus>
+                                <input type="text" style="width:100%; color:white;" class="contact_input @error('name') is-invalid @enderror" name="name" placeholder="Nome" autocomplete="name" required="required" autofocus>
                                 
                                 @error('name')
                                     <span class="invalid-feedback" role="alert">
@@ -55,7 +55,7 @@ Nova Chance - Login
                                     </span>
                                 @enderror
 
-                                <input type="email" style="width:100%;" class="contact_input @error('email') is-invalid @enderror" name="email" placeholder="E-mail" autocomplete="email" required="required" autofocus>
+                                <input type="email" style="width:100%; color:white;" class="contact_input @error('email') is-invalid @enderror" name="email" placeholder="E-mail" autocomplete="email" required="required" autofocus>
                                 
                                 @error('email')
                                     <span class="invalid-feedback" role="alert">
@@ -63,7 +63,7 @@ Nova Chance - Login
                                     </span>
                                 @enderror
                                 
-                                <input type="password" style="width:100%;" class="contact_input @error('password') is-invalid @enderror" name="password" placeholder="Senha" required="required">
+                                <input type="password" style="width:100%; color:white;" class="contact_input @error('password') is-invalid @enderror" name="password" placeholder="Senha" required="required">
                                 
                                 @error('password')
                                     <span class="invalid-feedback" role="alert">
@@ -71,16 +71,16 @@ Nova Chance - Login
                                     </span>
                                 @enderror
 
-                                <input type="password" style="width:100%;" class="contact_input" name="password_confirmation" placeholder="Confirme sua senha" required autocomplete="new-password">
+                                <input type="password" style="width:100%; color:white;" class="contact_input" name="password_confirmation" placeholder="Confirme sua senha" required autocomplete="new-password">
                                
-                                <input class="form-check-input" type="checkbox" name="remember" id="remember" {{ old('remember') ? 'checked' : '' }}>
+                                <!--<input class="form-check-input" type="checkbox" name="remember" id="remember" {{ old('remember') ? 'checked' : '' }}>
                                 <label class="form-check-label" for="remember">
                                     {{ __('Remember Me') }}
-                                </label>
+                                </label>-->
                                 
                             </div>
 							
-                            <div style="text-align:center;">
+                            <!--<div style="text-align:center;">
                                 <button onclick="alert('Olá, por favor aguarde o lançamento do site oficial para que seja possível criar novas contas.')" style="display:inline-block;" type="submit"class="contact_button">Criar</button>
                                 
                                 @if (Route::has('password.request'))
@@ -88,45 +88,9 @@ Nova Chance - Login
                                         {{ __('Forgot Your Password?') }}
                                     </a>
                                 @endif
-                            </div>
-						</form>-->
+                            </div>-->
 
-
-                        <form action="/home" method="GET" class="contact_form" id="contact_form">
-
-                            <div>
-                                <input type="text" style="width:100%;" class="contact_input @error('name') is-invalid @enderror"  placeholder="Nome" autocomplete="name" required="required" autofocus>
-                                
-                                @error('name')
-                                    <span class="invalid-feedback" role="alert">
-                                        <strong>{{ $message }}</strong>
-                                    </span>
-                                @enderror
-
-                                <input type="email" style="width:100%;" class="contact_input @error('email') is-invalid @enderror"  placeholder="E-mail" autocomplete="email" required="required" autofocus>
-                                
-                                @error('email')
-                                    <span class="invalid-feedback" role="alert">
-                                        <strong>{{ $message }}</strong>
-                                    </span>
-                                @enderror
-                                
-                                <input type="password" style="width:100%;" class="contact_input @error('password') is-invalid @enderror" placeholder="Senha" required="required">
-                                
-                                @error('password')
-                                    <span class="invalid-feedback" role="alert">
-                                        <strong>{{ $message }}</strong>
-                                    </span>
-                                @enderror
-
-                                <input type="password" style="width:100%;" class="contact_input"  placeholder="Confirme sua senha" required autocomplete="new-password">
-                               
-                            </div>
-							
-                            <div style="text-align:center;">
-                                <button onclick="alert('Olá, por favor aguarde o lançamento do site oficial para que seja possível criar novas contas.')" style="display:inline-block;" type="submit"class="contact_button">Criar</button>
-                               
-                            </div>
+                            <button style="display:inline-block;" type="submit" class="contact_button">Confirmar</button>
 						</form>
 					</div>
 				</div>

@@ -32,7 +32,7 @@ Nova Chance - Posts
 			<div class="home_container">
 				<div class="home_content text-center">
 					<div class="home_subtitle">NOVA CHANCE</div>
-					<div class="home_title">NC NEWS</div>
+					<div class="home_title">NEWS</div>
 				</div>
 			</div>
 		</div>

@@ -54,18 +54,6 @@
 		width: 575px;
 	}
 
-	.main_nav
-	{
-		display: none;
-	}
-	.log_reg
-	{
-		right: 120px;
-	}
-	.hamburger
-	{
-		display: block;
-	}
 }
 
 /************
@@ -98,6 +86,19 @@
 	.newsletter_container
 	{
 		width: 667px;
+	}
+
+	.main_nav
+	{
+		display: none;
+	}
+	.log_reg
+	{
+		right: 120px;
+	}
+	.hamburger
+	{
+		display: block;
 	}
 }
 

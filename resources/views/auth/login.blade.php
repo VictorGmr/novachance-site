@@ -47,7 +47,7 @@ Nova Chance - Login
                             @csrf
 
                             <div>
-                                <input type="email" style="width:100%;" class="contact_input @error('email') is-invalid @enderror" name="email" placeholder="E-mail" autocomplete="email" required="required" autofocus>
+                                <input type="email" style="width:100%; color:white;" class="contact_input @error('email') is-invalid @enderror" name="email" placeholder="E-mail" autocomplete="email" required="required" autofocus>
                                 
                                 @error('email')
                                     <span class="invalid-feedback" role="alert">
@@ -55,7 +55,7 @@ Nova Chance - Login
                                     </span>
                                 @enderror
                                 
-                                <input type="password" style="width:100%;" class="contact_input @error('password') is-invalid @enderror" name="password" placeholder="Senha" required="required">
+                                <input type="password" style="width:100%; color:white;" class="contact_input @error('password') is-invalid @enderror" name="password" placeholder="Senha" required="required">
                                 
                                 @error('password')
                                     <span class="invalid-feedback" role="alert">
@@ -71,7 +71,7 @@ Nova Chance - Login
                             </div>
 							
                             <div style="text-align:center;">
-                                <button style="display:inline-block;" type="submit"class="contact_button">Entrar</button>
+                                <button style="display:inline-block;" type="submit" class="contact_button">Entrar</button>
                                 
                                 <!--@if (Route::has('password.request'))
                                     <a style="display:inline-block;" class="btn btn-link" href="{{ route('password.request') }}">
