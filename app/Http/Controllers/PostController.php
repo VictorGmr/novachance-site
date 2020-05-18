@@ -39,6 +39,10 @@ class PostController extends Controller
      */
     public function store(Request $request)
     {
+        if($request->conteudo == null){
+            $request->conteudo = " ";
+        }
+
         $post = new Post();
         $post->titulo = $request->titulo;
         $post->conteudo = $request->conteudo;

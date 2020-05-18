@@ -93,8 +93,8 @@ Nova Chance - Posts
 										<!--<li><a href="#">2 Comments</a></li>-->
 									</ul>
 								</div>
-								<div class="blog_post_text" style="word-wrap: break-word">
-									<p>{{$post->conteudo}}</p>
+								<div class="blog_post_text">
+									<p><?php echo $post->conteudo; ?></p>
 								</div>
 							</div>
 						@endforeach
