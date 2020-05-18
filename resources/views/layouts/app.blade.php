@@ -218,7 +218,7 @@
 						<li><p style="margin-right:5px;" class="fa fa-youtube"></p><a href="https://www.youtube.com/user/Studioiir" target="_blank">Youtube</a></li>
 						<li><p style="margin-right:5px;" class="fa fa-facebook"></p><a href="https://www.facebook.com/novachance.pmw" target="_blank">Facebook</a></li>
 						<li><p style="margin-right:5px;" class="fa fa-instagram"></p><a href="https://www.instagram.com/novachance.pmw/?hl=pt-br" target="_blank">Instagram</a></li>
-						<li><p style="margin-right:5px;" class="fa fa-twitter"></p><a href="#" target="_blank">Twitter</a></li>
+						<li><p style="margin-right:5px;" class="fa fa-twitter"></p><a href="https://twitter.com/NCPmw" target="_blank">Twitter</a></li>
 					</ul>
 				</div>
 
