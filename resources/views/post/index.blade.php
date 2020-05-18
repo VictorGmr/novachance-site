@@ -48,7 +48,9 @@ Nova Chance - Posts
 				<div class="col-lg-9">
 					<div class="blog_posts">
 						@auth
-						<div style="margin-top: 15px;" class="button button_3 trans_200"><a href="ncnews/create">Criar nova postagem</a></div>
+							@if(Auth::user()->privilege == 1)
+								<div style="margin-top: 15px;" class="button button_3 trans_200"><a href="ncnews/create">Criar nova postagem</a></div>
+							@endif
 						@endauth
 
 						@foreach($posts as $post)
@@ -61,27 +63,28 @@ Nova Chance - Posts
 								</div>
 								
 								@auth
-									<div style="display:flex; margin-bottom:10px;">
-										<div class="button button_3 trans_200">
-											<a href="ncnews/edit/{{$post->id}}">Editar esta postagem</a>
-										</div>
-
-										<form id="delete_form" action="ncnews/{{$post->id}}" method="POST">
-											@csrf
-											@method('DELETE')
+									@if(Auth::user()->privilege == 1)
+										<div style="display:flex; margin-bottom:10px; margin-left:200px;">
 											<div class="button button_3 trans_200">
-												<a href="javascript:{}" onclick="document.getElementById('delete_form').submit();">Excluir esta postagem</a>
+												<a href="ncnews/edit/{{$post->id}}">Editar</a>
 											</div>
-										</form>
-										
-									</div>
+
+											<form id="delete_form" action="ncnews/{{$post->id}}" method="POST">
+												@csrf
+												@method('DELETE')
+												<div class="button button_3 trans_200">
+													<a href="javascript:{}" onclick="document.getElementById('delete_form').submit();">Excluir</a>
+												</div>
+											</form>
+										</div>
+									@endif
 								@endauth
 
 								@if(file_exists(public_path('images/fotos_posts/'.md5($post->id))))
 									<div class="blog_post_image"><img src="{{asset('images/fotos_posts/'.md5($post->id))}}"></div>
 									<div style="margin-top: 40px;" class="blog_post_title"><h2>{{$post->titulo}}</h2></div>
 								@else
-									<div style="margin-top: 0;" class="blog_post_title"><h2>{{$post->titulo}}</h2></div>
+									<div style="margin-top: 150px;" class="blog_post_title"><h2>{{$post->titulo}}</h2></div>
 								@endif
 
 								<div class="blog_post_info">
