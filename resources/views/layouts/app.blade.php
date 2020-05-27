@@ -268,7 +268,15 @@
 <script src="/plugins/parallax-js-master/parallax.min.js"></script>
 <script src="/plugins/jPlayer/jquery.jplayer.min.js"></script>
 <script src="/plugins/jPlayer/jplayer.playlist.min.js"></script>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-140647791-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
+  gtag('config', 'UA-140647791-1');
+</script>
 @yield('js')
 
 
