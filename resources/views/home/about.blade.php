@@ -50,8 +50,13 @@ Nova Chance - Sobre
 							<div class="section_title"><h1>IGREJA NOVA CHANCE</h1></div>
 						</div>
 						<div class="artist_text">
-							<p> In vitae nisi aliquam, scelerisque leo a, volutpat sem. Vivamus rutrum dui fermentum eros hendrerit, id lobortis leo volutpat. Maecenas sollicitudin est in libero pretium interdum. Nullam volutpat dui sem, ac congue purus luctus nec. Curabitur luctus luctus erat, sit amet facilisis quam congue quis. Quisque ornare luctus erat id dignissim. Nullam ac nunc quis ex porttitor luctus.</p>
-							<p>Integer sed facilisis eros. In iaculis rhoncus velit in malesuada. In hac habitasse platea dictumst. Fusce erat ex, consectetur sit amet ornare suscipit, porta et erat. Donec nec nisi in nibh commodo laoreet. Mauris dapibus justo ut feugiat malesuada. Fusce ultricies ante tortor, non vestibulum est feugiat ut.</p>
+							<p>A Igreja Internacional Nova Chance tem 19 anos de trabalho na cidade de Palmas, é presidida pelos Apóstolos Sérgio Paulo e Késia Guimarães.</p>
+							<p>Além dos cultos de celebração nos domingos às 10 horas e às 18h30, temos o culto da família, nas terça as 20h. Aos sábados as 18h, o culto de adolescentes - re9 teen e as 19:30h, o de jovens - re9 jovem. 
+Comportamos de sala para crianças de 2 a 12 anos, onde acontece os cultos da Rede de crianças SuperJoy paralelamente ao dos adultos. Você que é mamãe e papai de Crianças de 0 a 2 anos temos um berçário equipado pra você acompanhar as programações com todo o conforto.</p>
+							<p>Como igreja, celebramos o ano da viva esperança, onde temos crescido em maturidade e com o coração cheio de gratidão, rendendo adoração ao Senhor pelos feitos dEle entre nós.</p>
+							<p>"Se pela transgressão de um só a morte reinou por meio dele, muito mais aqueles que recebem de Deus a imensa provisão da graça e a dádiva da justiça reinarão em vida por um só, Jesus Cristo." Romanos 5:17</p>
+							<p>Apóstolo Sérgio Paulo.</p>
+							<p>2020- Ano da Esperança</p>
 						</div>
 
 

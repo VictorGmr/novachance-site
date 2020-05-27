@@ -91,8 +91,14 @@ Nova Chance
 							<div class="section_title"><h1>Sérgio Paulo e Késia Guimarães</h1></div>
 						</div>
 						<div class="artist_text">
-							<p> In vitae nisi aliquam, scelerisque leo a, volutpat sem. Vivamus rutrum dui fermentum eros hendrerit, id lobortis leo volutpat. Maecenas sollicitudin est in libero pretium interdum. Nullam volutpat dui sem, ac congue purus luctus nec. Curabitur luctus luctus erat, sit amet facilisis quam congue quis. Quisque ornare luctus erat id dignissim. Nullam ac nunc quis ex porttitor luctus.</p>
-							<p>Integer sed facilisis eros. In iaculis rhoncus velit in malesuada. In hac habitasse platea dictumst. Fusce erat ex, consectetur sit amet ornare suscipit, porta et erat. Donec nec nisi in nibh commodo laoreet. Mauris dapibus justo ut feugiat malesuada. Fusce ultricies ante tortor, non vestibulum est feugiat ut.</p>
+							<p> "Darei a vocês um coração novo; tirarei o de pedra e lhes darei um de carne. E vocês terão vida." Ezequiel 36: 26-27; 37:5b </p>
+							<p>Deus fez conosco uma aliança de paz e de promessa com um selo eterno pelo sangue de Jesus. </p>
+							<p>O apóstolo Paulo não questionou e não se deixou abater pelos sofrimentos que lhes sobrevieram, ele sabia que Deus lhes reservara vitória. </p>
+							<p>A fé é um fato mas também um ato! É racional!</p>
+							<p>Peça e receba! </p>
+							<p>"O que é impossível para os homens é possível para Deus". Lucas 18:27 </p>
+							<p> 2020 - Ano da Esperança </p>
+							<p>Apóstolos Sérgio Paulo e Késia Guimarães.</p>
 						</div>
 						<!-- PLAYER AUDIO <div class="single_player_container d-flex flex-column align-items-start justify-content-center">
 							<div class="single_player">
@@ -245,7 +251,10 @@ Nova Chance
 						<div class="extra_content d-flex flex-column align-items-start justify-content-center">
 							<div class="extra_title"><h1>Voluntariado</h1></div>
 							<div class="extra_text">
-								<p>Deseja se tornar um voluntário na Nova Chance e contribuir ainda mais para o reino de Deus? Entre em nosso grupo de voluntários no Whatsapp através do link abaixo.</p>
+								<p>"E Deus é poderoso para tornar abundante em vós toda graça, a fim de que, tendo sempre, em tudo,   tudo o que é necessário, superabundeis em toda boa obra." 2 Coríntios 9:8</p>
+								<p>Você que deseja se tornar um voluntário na Nova Chance e contribuir ainda mais para o Reino de Deus, entre em nosso grupo no Whatsapp através do link abaixo.</p>
+								<p>Reinamos em vida!</p>
+								<p>2020 - Ano da Esperança.</p>
 							</div>
 							<div class="extra_button"><a href="https://chat.whatsapp.com/JBdY5zH1A2SDPR9s4kCUIG" target="_blank">Quero ser um voluntário</a></div>
 						</div>
