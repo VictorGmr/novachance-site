@@ -29,7 +29,11 @@
 }
 @media only screen and (max-width: 1600px)
 {
-	
+	.artist_image img
+	{
+		width: 400px;
+		margin-left:200px;
+	}
 }
 
 /************
@@ -43,11 +47,7 @@
 		top: 130px;
 		
 	}
-	.artist_image img
-	{
-		width: 400px;
-		margin-left:300px;
-	}
+	
 }
 
 /************
@@ -114,6 +114,10 @@
 	{
 		display: block;
 	}
+
+	.artist_image img{
+		margin-left:140px;
+	}
 }
 
 /************
@@ -122,7 +126,10 @@
 
 @media only screen and (max-width: 1100px)
 {
-	
+	.artist_image img{
+		width:350px;
+		margin-left: 180px;
+	}
 }
 
 /************
@@ -213,7 +220,7 @@
 	    width: 100%;
 	    right: 0;
 	    top: 50px;
-	    text-align: right;
+		text-align: right;
 	}
 	.artist_image
 	{

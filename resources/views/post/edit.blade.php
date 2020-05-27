@@ -48,9 +48,9 @@ Nova Chance - Editar Post
 							@method('PUT')
 							@csrf
 							<label for="titulo"><h3>Título:</h3></label>
-							<input id="titulo" type="name" class="contact_input" value="{{$post->titulo}}" name="titulo" required="required" autocomplete="off">
+							<input id="titulo" style="background-color:white; color:black;" type="name" class="contact_input" value="{{$post->titulo}}" name="titulo" required="required" autocomplete="off">
 							<label for="conteudo"><h3>Mensagem:</h3></label>
-							<textarea id="conteudo" style="height:348px;"class="contact_input contact_textarea" name="conteudo" autocomplete="off" required="required">{{$post->conteudo}}</textarea>
+							<textarea id="conteudo" style="height:348px;"class="contact_input contact_textarea" name="conteudo" autocomplete="off">{{$post->conteudo}}</textarea>
 							<ul>
 							<li><label for="foto">Selecione uma imagem para seu post</label></li>
 							<li><input type="file" name="foto" id="foto"></li>
@@ -70,4 +70,13 @@ Nova Chance - Editar Post
 
 @section('js')
 <script src="/js/contato.js"></script>
+<script src="//cdn.tinymce.com/4/tinymce.min.js"></script>
+<script>
+	tinymce.init({
+		selector: 'textarea',
+		plugins: 'nonbreaking',
+		menubar: false,
+		nonbreaking_force_tab: true
+	});
+</script>
 @endsection()
