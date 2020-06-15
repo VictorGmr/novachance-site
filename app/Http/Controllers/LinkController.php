@@ -15,10 +15,11 @@ class LinkController extends Controller
 
     public function index(){
         $links = link::all();
+        $getLink = 'https://www.youtube.com/watch?v=LNP4nGu0Xnk';
         foreach($links as $link){
             $getLink = $link->link;
         }
-
+        
         $finalLink = str_replace('watch?v=', 'embed/', $getLink);
 
         return view('home.aovivo', array('link' => $finalLink));
