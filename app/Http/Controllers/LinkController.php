@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\link;
 use Illuminate\Http\Request;
+use Auth;
 
 class LinkController extends Controller
 {
@@ -27,19 +28,24 @@ class LinkController extends Controller
     }
 
     public function adicionarLive(Request $request){
-        $links = link::all();
+        if(Auth::user()->privilege == 1){
+            $links = link::all();
 
-        foreach($links as $link){
-            $link->delete();
-        }
-        $link = new link();
-        $link->link = $request->link;
-        if($link->save()){
-            $finalLink = str_replace('watch?v=', 'embed/', $link->link);
-            return view('home.aovivo', array('link' => $finalLink));
+            foreach($links as $link){
+                $link->delete();
+            }
+            $link = new link();
+            $link->link = $request->link;
+            if($link->save()){
+                $finalLink = str_replace('watch?v=', 'embed/', $link->link);
+                return view('home.aovivo', array('link' => $finalLink));
+            }else{
+                dd('Ocorreu um erro ao tentar adicionar o link');
+            }
         }else{
-            dd('Ocorreu um erro ao tentar adicionar o link');
+            return redirect('/home');
         }
+        
     }
 
 

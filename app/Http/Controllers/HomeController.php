@@ -29,11 +29,6 @@ class HomeController extends Controller
         return view('home.about');
     }
 
-    public function aovivo()
-    {
-        return view('home.aovivo');
-    }
-
     public function contato()
     {
         return view('home.contact');

@@ -28,7 +28,12 @@ class PostController extends Controller
      */
     public function create()
     {
-        return view('post.create');
+        if(Auth::user()->privilege == 1){
+            return view('post.create');
+        }else{
+            return redirect('/home');
+        }
+        
     }
 
     /**
@@ -39,24 +44,29 @@ class PostController extends Controller
      */
     public function store(Request $request)
     {
-        if($request->conteudo == null){
-            $request->conteudo = " ";
-        }
-
-        $post = new Post();
-        $post->titulo = $request->titulo;
-        $post->conteudo = $request->conteudo;
-        $post->users_id = Auth::id();
-        $post->category = $request->category;
-
-        if($post->save()){
-            if($request->hasFile('foto')){
-                $foto = $request->file('foto');
-                $nomearquivo = md5($post->id);
-                $request->file('foto')->move(public_path('images/fotos_posts/'), $nomearquivo);
+        if(Auth::user()->privilege == 1){
+            if($request->conteudo == null){
+                $request->conteudo = " ";
             }
-            return redirect('ncnews');
+    
+            $post = new Post();
+            $post->titulo = $request->titulo;
+            $post->conteudo = $request->conteudo;
+            $post->users_id = Auth::id();
+            $post->category = $request->category;
+    
+            if($post->save()){
+                if($request->hasFile('foto')){
+                    $foto = $request->file('foto');
+                    $nomearquivo = md5($post->id);
+                    $request->file('foto')->move(public_path('images/fotos_posts/'), $nomearquivo);
+                }
+                return redirect('ncnews');
+            }
+        }else{
+            return redirect('/home');
         }
+        
     }
 
     /**
@@ -83,7 +93,12 @@ class PostController extends Controller
      */
     public function edit(Post $post)
     {
-        return view('post.edit', array('post' => $post));
+        if(Auth::user()->privilege == 1){
+            return view('post.edit', array('post' => $post));
+        }else{
+            return redirect('/home');
+        }
+        
     }
 
     /**
@@ -95,24 +110,28 @@ class PostController extends Controller
      */
     public function update(Request $request, $id)
     {
-        $post = Post::find($id);
-        $post->titulo = $request->titulo;
-        $post->conteudo = $request->conteudo;
-        $post->users_id = Auth::id();
-        $post->category = $request->category;
-
-        if($request->hasFile('foto')){
-            $foto = $request->file('foto');
-            $nomearquivo = md5($post->id);
-            $request->file('foto')->move(public_path('images/fotos_posts/'), $nomearquivo);
-        }
-
-        if($post->save()){
-            return redirect('ncnews');
+        if(Auth::user()->privilege == 1){
+            $post = Post::find($id);
+            $post->titulo = $request->titulo;
+            $post->conteudo = $request->conteudo;
+            $post->users_id = Auth::id();
+            $post->category = $request->category;
+    
+            if($request->hasFile('foto')){
+                $foto = $request->file('foto');
+                $nomearquivo = md5($post->id);
+                $request->file('foto')->move(public_path('images/fotos_posts/'), $nomearquivo);
+            }
+    
+            if($post->save()){
+                return redirect('ncnews');
+            }else{
+                dd('Ocorreu um erro durante a atualizacao do seu post!');
+            }
         }else{
-            dd('Ocorreu um erro durante a atualizacao do seu post!');
+            return redirect('/home');
         }
-
+        
     }
 
     /**
@@ -123,7 +142,12 @@ class PostController extends Controller
      */
     public function destroy(Post $post)
     {
-        $post->delete();
-        return redirect('ncnews')->with('success_message', 'teste');
+        if(Auth::user()->privilege == 1){
+            $post->delete();
+            return redirect('ncnews')->with('success_message', 'teste');
+        }else{
+            return redirect('/home');
+        }
+        
     }
 }
