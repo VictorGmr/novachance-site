@@ -29,7 +29,7 @@ Nova Chance - NC ON TV
 			<div class="home_container">
 				<div class="home_content text-center">
 					<div class="home_subtitle">NOVA CHANCE</div>
-					<div class="home_title">NC ON TV</div>
+					<div class="home_title">ON TV</div>
 				</div>
 			</div>
 		</div>
@@ -41,12 +41,26 @@ Nova Chance - NC ON TV
 		<div class="container">
 			<div class="row">
 				<div class="col">
+					@auth
+						@if(Auth::user()->privilege == 1)
+							<form style="margin-bottom: 50px;" action="/aovivo/adicionar-live">
+								<label for="link">Adicione o link da live a ser exibida abaixo:</label>
+								<input type="text" name="link" id="link">
+								<input type="submit" value="Confirmar">
+							</form>
+						@endif
+					@endauth
 					
 					<!-- Buttons -->
 					<div>
 						<div class="elements_title">Transmissão ao vivo</div>
 						<div class="buttons_container d-flex flex-row align-items-start justify-content-start flex-wrap">
-						<iframe width="1120" height="630" src="https://www.youtube.com/embed/2Ymc2BOyR28" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+						@if(isset($link))
+							<iframe width="1120" height="630" src="{{$link}}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+						@else
+							<iframe width="1120" height="630" src="https://www.youtube.com/embed/LNP4nGu0Xnk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+						@endif
+						
 						</div>
 					</div>
 

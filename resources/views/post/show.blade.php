@@ -228,14 +228,14 @@ Nova Chance - Posts
 							<div class="sidebar_title">Categorias</div>
 							<div class="sidebar_list">
 								<ul>
-									<li><a href="/ncnews/categoria/0">Séries</a></li>
+                                    <li><a href="/ncnews/categoria/0">Séries</a></li>
 									<li><a href="/ncnews/categoria/1">Louvor</a></li>
 									<li><a href="/ncnews/categoria/2">Intersessão</a></li>
 									<li><a href="/ncnews/categoria/3">Dança</a></li>
 									<li><a href="/ncnews/categoria/4">Teatro</a></li>
 									<li><a href="/ncnews/categoria/5">Introdução</a></li>
 									<li><a href="/ncnews/categoria/6">Pastoral</a></li>
-									<li><a href="/ncnews">Todas as postagens</a></li>
+                                    <li><a href="/ncnews">Todas as postagens</a></li>
 								</ul>
 							</div>
 						</div>

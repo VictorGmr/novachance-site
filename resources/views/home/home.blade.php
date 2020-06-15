@@ -91,14 +91,7 @@ Nova Chance
 							<div class="section_title"><h1>Sérgio Paulo e Késia Guimarães</h1></div>
 						</div>
 						<div class="artist_text">
-							<p> "Darei a vocês um coração novo; tirarei o de pedra e lhes darei um de carne. E vocês terão vida." Ezequiel 36: 26-27; 37:5b </p>
-							<p>Deus fez conosco uma aliança de paz e de promessa com um selo eterno pelo sangue de Jesus. </p>
-							<p>O apóstolo Paulo não questionou e não se deixou abater pelos sofrimentos que lhes sobrevieram, ele sabia que Deus lhes reservara vitória. </p>
-							<p>A fé é um fato mas também um ato! É racional!</p>
-							<p>Peça e receba! </p>
-							<p>"O que é impossível para os homens é possível para Deus". Lucas 18:27 </p>
-							<p> 2020 - Ano da Esperança </p>
-							<p>Apóstolos Sérgio Paulo e Késia Guimarães.</p>
+							<p> "Darei a vocês um coração novo; tirarei o de pedra e lhes darei um de carne. E vocês terão vida." Ezequiel 36: 26-27; 37:5b <br> Deus fez conosco uma aliança de paz e de promessa com um selo eterno pelo sangue de Jesus.<br>O apóstolo Paulo não questionou e não se deixou abater pelos sofrimentos que lhes sobrevieram, ele sabia que Deus lhes reservara vitória.<br>A fé é um fato mas também um ato! É racional!<br>Peça e receba!<br>"O que é impossível para os homens é possível para Deus". Lucas 18:27<br>2020 - Ano da Esperança<br>Apóstolos Sérgio Paulo e Késia Guimarães.</p>
 						</div>
 						<!-- PLAYER AUDIO <div class="single_player_container d-flex flex-column align-items-start justify-content-center">
 							<div class="single_player">

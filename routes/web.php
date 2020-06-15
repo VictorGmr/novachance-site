@@ -20,7 +20,7 @@ Route::get('/', 'HomeController@home')->name('home');
 Route::get('/home', 'HomeController@home')->name('home');
 Route::post('/home/inscrever-se', 'HomeController@storeNewsletter')->name('inscrever-se');
 Route::get('/sobre', 'HomeController@sobre')->name('sobre');
-Route::get('/aovivo', 'HomeController@aovivo')->name('aovivo');
+Route::get('/aovivo', 'LinkController@index')->name('aovivo');
 
 
 Route::get('/ncnews', 'PostController@index')->name('ncnews');
@@ -29,3 +29,7 @@ Route::post('/ncnews/store', 'PostController@store')->name('ncnews/store')->midd
 Route::get('/ncnews/edit/{post}', 'PostController@edit')->name('ncnews/edit')->middleware('auth');
 Route::put('/ncnews/{post}', 'PostController@update')->name('ncnews/update')->middleware('auth');
 Route::delete('/ncnews/{post}', 'PostController@destroy')->name('ncnews/delete')->middleware('auth');
+
+Route::get('/ncnews/categoria/{category}', 'PostController@showCategory');
+
+Route::get('/aovivo/adicionar-live', 'LinkController@adicionarLive')->middleware('auth');

@@ -54,6 +54,19 @@ Nova Chance - Novo Post
 							<li><label for="foto">Selecione uma imagem para seu post</label></li>
 							<li><input type="file" name="foto" id="foto"></li>
 							</ul>
+
+							<label for="category">Selecione uma categoria para seu post:</label>
+							<select name="category" id="category" required>
+								<option value="" selected>Selecione...</option>
+								<option value="0">Séries</option>
+								<option value="1">Louvor</option>
+								<option value="2">Intersessão</option>
+								<option value="3">Dança</option>
+								<option value="4">Teatro</option>
+								<option value="5">Introdução</option>
+								<option value="6">Pastoral</option>
+							</select>
+
 							<button class="contact_button">Criar post</button>
 						</form>
 					</div>

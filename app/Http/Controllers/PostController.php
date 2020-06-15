@@ -47,6 +47,7 @@ class PostController extends Controller
         $post->titulo = $request->titulo;
         $post->conteudo = $request->conteudo;
         $post->users_id = Auth::id();
+        $post->category = $request->category;
 
         if($post->save()){
             if($request->hasFile('foto')){
@@ -69,6 +70,11 @@ class PostController extends Controller
         //
     }
 
+    public function showCategory($category){
+        $post = Post::where('category', 'LIKE', $category)->get();
+        return view('post.show', array('posts' => $post, 'users' => User::all()));
+    }
+
     /**
      * Show the form for editing the specified resource.
      *
@@ -87,18 +93,24 @@ class PostController extends Controller
      * @param  \App\Post  $post
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, Post $post)
+    public function update(Request $request, $id)
     {
-        
-        if($post->update($request->all())){
-            if($request->hasFile('foto')){
-                $foto = $request->file('foto');
-                $nomearquivo = md5($post->id);
-                $request->file('foto')->move(public_path('images/fotos_posts/'), $nomearquivo);
-            }
+        $post = Post::find($id);
+        $post->titulo = $request->titulo;
+        $post->conteudo = $request->conteudo;
+        $post->users_id = Auth::id();
+        $post->category = $request->category;
+
+        if($request->hasFile('foto')){
+            $foto = $request->file('foto');
+            $nomearquivo = md5($post->id);
+            $request->file('foto')->move(public_path('images/fotos_posts/'), $nomearquivo);
+        }
+
+        if($post->save()){
             return redirect('ncnews');
         }else{
-            dd('erro');
+            dd('Ocorreu um erro durante a atualizacao do seu post!');
         }
 
     }
