@@ -157,7 +157,7 @@ class PostController extends Controller
 
 
         for($i = 0; $i < sizeof($posts); $i++){
-            $imageLink = ['imagem' => 'localhost/images/fotos_posts/'.md5($posts[$i]['id'])];
+            $imageLink = ['imagem' => 'novachance.life/images/fotos_posts/'.md5($posts[$i]['id'])];
             $posts[$i] = array_merge($posts[$i], $imageLink);
         }
 
