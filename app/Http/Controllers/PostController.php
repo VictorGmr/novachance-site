@@ -17,7 +17,7 @@ class PostController extends Controller
     public function index()
     {
         $allPosts = Post::orderBy('created_at', 'desc')->get();
-        
+
         return view('post.index', array('posts' => $allPosts, 'users' => User::all()));
     }
 
@@ -33,7 +33,7 @@ class PostController extends Controller
         }else{
             return redirect('/home');
         }
-        
+
     }
 
     /**
@@ -48,13 +48,13 @@ class PostController extends Controller
             if($request->conteudo == null){
                 $request->conteudo = " ";
             }
-    
+
             $post = new Post();
             $post->titulo = $request->titulo;
             $post->conteudo = $request->conteudo;
             $post->users_id = Auth::id();
             $post->category = $request->category;
-    
+
             if($post->save()){
                 if($request->hasFile('foto')){
                     $foto = $request->file('foto');
@@ -66,7 +66,7 @@ class PostController extends Controller
         }else{
             return redirect('/home');
         }
-        
+
     }
 
     /**
@@ -98,7 +98,7 @@ class PostController extends Controller
         }else{
             return redirect('/home');
         }
-        
+
     }
 
     /**
@@ -116,13 +116,13 @@ class PostController extends Controller
             $post->conteudo = $request->conteudo;
             $post->users_id = Auth::id();
             $post->category = $request->category;
-    
+
             if($request->hasFile('foto')){
                 $foto = $request->file('foto');
                 $nomearquivo = md5($post->id);
                 $request->file('foto')->move(public_path('images/fotos_posts/'), $nomearquivo);
             }
-    
+
             if($post->save()){
                 return redirect('ncnews');
             }else{
@@ -131,7 +131,7 @@ class PostController extends Controller
         }else{
             return redirect('/home');
         }
-        
+
     }
 
     /**
@@ -148,6 +148,11 @@ class PostController extends Controller
         }else{
             return redirect('/home');
         }
-        
+
+    }
+
+    public function getPosts(){
+        $posts = json_encode(Post::orderBy('created_at', 'desc')->get());
+        return $posts;
     }
 }

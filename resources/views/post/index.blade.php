@@ -19,9 +19,9 @@ Nova Chance - Posts
 @endsection()
 
 @section('content')
-	
-	
-	
+
+
+
 
 	<!-- Home -->
 
@@ -43,7 +43,7 @@ Nova Chance - Posts
 	<div class="blog">
 		<div class="container">
 			<div class="row">
-				
+
 				<!-- Blog Posts -->
 				<div class="col-lg-9">
 					<div class="blog_posts">
@@ -61,7 +61,7 @@ Nova Chance - Posts
 									<div>{{$post->created_at->format('m')}}</div>
 									<div>{{$post->created_at->format('Y')}}</div>
 								</div>
-								
+
 								@auth
 									@if(Auth::user()->privilege == 1)
 										<div style="display:flex; margin-bottom:10px; margin-left:200px;">
@@ -100,7 +100,7 @@ Nova Chance - Posts
 						@endforeach
 
 
-						<!-- Blog Post 
+						<!-- Blog Post
 						<div class="blog_post">
 							<div class="blog_post_date d-flex flex-column align-items-center justify-content-center">
 								<div>July</div>
@@ -120,7 +120,7 @@ Nova Chance - Posts
 							</div>
 						</div>
 
-						 Blog Post 
+						 Blog Post
 						<div class="blog_post blog_post_audio">
 							<div class="blog_post_date d-flex flex-column align-items-center justify-content-center">
 								<div>July</div>
@@ -184,7 +184,7 @@ Nova Chance - Posts
 
 						</div>
 
-						 Blog Post 
+						 Blog Post
 						<div class="blog_post">
 							<div class="blog_post_date d-flex flex-column align-items-center justify-content-center">
 								<div>July</div>
@@ -209,7 +209,7 @@ Nova Chance - Posts
 						<div class="button"><a href="#">Load More</a></div>
 					</div>-->
 				</div>
-				
+
 				<!-- Sidebar -->
 				<div class="col-lg-3">
 					<div class="sidebar">
@@ -228,7 +228,7 @@ Nova Chance - Posts
 							<div class="sidebar_title">Categorias</div>
 							<div class="sidebar_list">
 								<ul>
-									<li><a href="/ncnews/categoria/0">Séries</a></li>
+                                    <li><a href="/ncnews/categoria/0">Séries</a></li>
 									<li><a href="/ncnews/categoria/1">Louvor</a></li>
 									<li><a href="/ncnews/categoria/2">Intersessão</a></li>
 									<li><a href="/ncnews/categoria/3">Dança</a></li>
@@ -242,7 +242,7 @@ Nova Chance - Posts
 						<div class="sidebar_section">
 							<div class="sidebar_title">Últimas Postagens</div>
 							<div class="latest_news_list">
-								<?php 
+								<?php
 									$var = 0;
 									foreach($posts as $post){
 
@@ -257,7 +257,7 @@ Nova Chance - Posts
 												</div>
 											</div>
 										';
-										
+
 										$var++;
 									}
 								?>
