@@ -69,11 +69,11 @@ Nova Chance - Posts
 												<a href="/ncnews/edit/{{$post->id}}">Editar</a>
 											</div>
 
-											<form id="delete_form" action="/ncnews/{{$post->id}}" method="POST">
+											<form id="delete_form_{{$post->id}}" action="/ncnews/{{$post->id}}" method="POST">
 												@csrf
 												@method('DELETE')
 												<div class="button button_3 trans_200">
-													<a href="javascript:{}" onclick="document.getElementById('delete_form').submit();">Excluir</a>
+													<a href="javascript:{}" onclick="document.getElementById('delete_form_{{$post->id}}').submit();">Excluir</a>
 												</div>
 											</form>
 										</div>

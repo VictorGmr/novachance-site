@@ -152,7 +152,16 @@ class PostController extends Controller
     }
 
     public function getPosts(){
-        $posts = json_encode(Post::orderBy('created_at', 'desc')->get());
-        return $posts;
+        $posts = Post::orderBy('created_at', 'desc')->get();
+        $posts = $posts->toArray();
+
+
+        for($i = 0; $i < sizeof($posts); $i++){
+            $imageLink = ['imagem' => 'localhost/images/fotos_posts/'.md5($posts[$i]['id'])];
+            $posts[$i] = array_merge($posts[$i], $imageLink);
+        }
+
+        return response($posts, 200);
+
     }
 }

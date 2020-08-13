@@ -20,6 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bfc93ead-ea96-475d-b962-9505d239cd39" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/PostController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/PostController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/post/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/post/index.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
@@ -29,7 +30,7 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
   </component>
@@ -140,6 +141,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -165,6 +167,7 @@
       <option name="presentableId" value="Default" />
       <updated>1597302684822</updated>
       <workItem from="1597302687554" duration="1991000" />
+      <workItem from="1597321915065" duration="3277000" />
     </task>
     <servers />
   </component>
@@ -181,8 +184,21 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="555" y="215" width="800" height="684" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1597321982861">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="555" y="215" width="800" height="684" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1597321982861" />
+    <state x="586" y="358" width="737" height="397" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1597324687185">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="586" y="358" width="737" height="397" key="#com.intellij.fileTypes.FileTypeChooser/0.27.1920.1053@0.27.1920.1053" timestamp="1597324687185" />
+    <state width="247" height="458" key="HiddenNamespacesPopup" timestamp="1597322048156">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="247" height="458" key="HiddenNamespacesPopup/0.27.1920.1053@0.27.1920.1053" timestamp="1597322048156" />
     <state x="654" y="302" width="611" height="502" key="find.popup" timestamp="1597304657491">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>

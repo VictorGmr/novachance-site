@@ -19,4 +19,4 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
 });
 
 Route::get('/posts', 'PostController@getPosts');
-Route::get('/verify-user', 'UserController@verifyUser');
+Route::post('/verify-user', 'UserController@verifyUser');
